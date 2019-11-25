@@ -1,27 +1,83 @@
 name:
-  x: 90
-  y: 90
-  width: 500
-  height: 50
-  font: Arial 18
-  valign: middle
-  align: left
+  x: 75
+  y: 75
+  width: 2.25in
+  height: 503
+  font: Audiowide 15
+  spacing: -25
+  # font: Michroma,Serif 24
+  # font: Black Ops One,Serif 24
+  # font: Aldrich,Serif 24
+  # font: Odibee Sans,Serif 24
+  valign: top
+  align: center
   ellipsize: false
 
-ATK:
-  x: 90
-  y: 190
-  width: 200
-  height: 50
-  font: Arial 12
+tags:
+  x: 75
+  y: 155
+  width: 2.25in
+  align: center
+  font: Audiowide 6
+
+Consume1:
+  x: 75
+  y: 365
+  width: 85
+  height: 85
+  align: right
   valign: middle
-  align: left
-  ellipsize: false
-DEF:
-  extends: ATK
-  y: += 75
+  font: Audiowide 15
+Consume1Icon:
+  x: 140
+  y: 355
+  width: 100
+  height: 100
+
+Consume2:
+  extends: Consume1
+  y: += 300
+
+Consume2Icon:
+  extends: Consume1Icon
+  y: += 300
+
+Required1:
+  x: 125
+  y: 965
+  width: 85
+  height: 85
+  align: right
+  valign: middle
+  font: Audiowide 15
+Required1Icon:
+  x: 210
+  y: 965
+  width: 85
+  height: 85
+
+Required2:
+  extends: Required1
+  x: += 375
+
+Required2Icon:
+  extends: Required1Icon
+  x: += 375
+
+
+
+
+Action1:
+  x: 370
+  y: 270
+  width: 1.25in
+  height: 2in
+  # hint: red
+  font: Serif 10
+  align: center
+  valign: middle
 
 version:
   font: Arial 6
-  x: 725
-  y: 45
+  x: 2.35in
+  y: 2.9in

@@ -1,0 +1,44 @@
+              ╭------------------------------------╮
+         Name | Sieze Opportunity                  |
+         Tags | Action                             |
+     Consume1 | 3                                  |
+ Consume1Icon | electric                           |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action1 | Take an opportunity card from your |
+              |  pile and place it on your tableau |
+              | .                                  |
+      Action2 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Expand Options                     |
+         Tags | Buff                               |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+    Required1 | 5                                  |
+Required1Icon | electric                           |
+    Required2 | 3                                  |
+Required2Icon | glass-heart                        |
+      Action1 | Deal +1 Opportunities              |
+      Action2 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Basic Factories                    |
+         Tags | Action, Manufacturing              |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action1 |                                    |
+      Action2 |                                    |
+              ╰------------------------------------╯

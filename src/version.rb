@@ -1,3 +1,3 @@
-module MySquibGame
-  VERSION = '1.0'
+module ProjectRuin
+  VERSION = 'v1.0'
 end
