@@ -6,13 +6,19 @@ require 'rake/clean'
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 desc 'By default, just build the deck without extra options'
-task default: [:deck]
+task default: [
+  :opportunities,
+  :alien
+]
 
 desc 'Build everything, with all the options'
-task all: [:with_pnp, :with_proofs, :deck]
+task all: [:with_pnp, :with_proofs, :default]
 
-desc 'Build the deck'
-task(:deck)     { load 'src/deck.rb' }
+desc 'Build the opportunity deck'
+task(:opportunities)     { load 'src/opportunities.rb' }
+
+desc 'Build the alien ship deck'
+task(:alien)     { load 'src/alien.rb' }
 
 desc 'Enable proof lines'
 task(:with_proofs) do
