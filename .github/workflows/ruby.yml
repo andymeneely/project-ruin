@@ -1,4 +1,4 @@
-name: Ruby
+name: Build Project
 
 on: [push]
 
@@ -17,6 +17,12 @@ jobs:
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
+    - name: Install fonts
+      run: |
+        mkdir ~/.fonts
+        cp fonts/*.otf ~/.fonts
+        cp fonts/*.ttf ~/.fonts
+        fc-cache -f -v
     - name: rake
       run: |
         bundle exec rake
