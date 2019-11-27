@@ -22,15 +22,20 @@ Squib::Deck.new(cards: data.nrows) do
     svg data: data["#{col}SVG"], layout: "#{col}Icon"
     text str: data[col], layout: col
     # Draw these UI frames only if the column is not nil
-    puts data[col].map { |x| x.to_s.empty? ? nil : "#{col}Frame" }
-    rect layout: data[col].map { |x| x.to_s.empty? ? nil : "#{col}Frame" }
+    # puts data[col].map { |x| x.to_s.empty? ? nil : "#{col}Frame" }
+    # svg layout: data[col].map { |x| x.to_s.empty? ? nil : "#{col}Frame" }
   end
 
-  # text layout: data.consume1.map { |x| x.nil? ? nil : :Consume1Arrow }
-  # text layout: data.consume2.map { |x| x.nil? ? nil : :Consume2Arrow }
+  svg layout: 'Consume1Frame'
+  svg layout: 'Consume2Frame'
+  svg layout: 'Store1Frame'
+  svg layout: 'Store2Frame'
+  svg layout: 'Required1Frame'
+  svg layout: 'Required2Frame'
+  svg layout: 'Action1'
 
-  # text str: data.action1, layout: :Action1
-  # text str: data.tags, layout: :tags
+  text str: data.action1, layout: :Action1
+  text str: data.tags, layout: :tags
 
   text str: ProjectRuin::VERSION, layout: :version
 

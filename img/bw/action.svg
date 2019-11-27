@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="consume.svg">
+   sodipodi:docname="action.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="331.08157"
-     inkscape:cy="12.662389"
+     inkscape:cx="99.251563"
+     inkscape:cy="7.6116263"
      inkscape:document-units="in"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -57,11 +57,25 @@
      inkscape:label="Consume1"
      style="display:inline"
      transform="translate(-7.7523676,-3.4480656)">
-    <path
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:0.99408288;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 33.002128,22.830484 v 0.789101 c 0,2.813278 -2.264963,5.078243 -5.078243,5.078243 H 12.980612 c -2.81328,0 -5.0782444,-2.264965 -5.0782444,-5.078243 V 8.6763086 c 0,-2.813279 2.2649644,-5.078243 5.0782444,-5.078243 h 14.943273 c 2.81328,0 5.078243,2.264964 5.078243,5.078243 v 0.966571 c 0.0016,2.0519264 1.641869,3.7268474 3.73233,3.8048494 l 4.269691,0.0335 V 9.8712339 l 6.450392,6.4379641 -6.450392,6.438494 v -3.610523 l -4.230674,1e-6 c -2.051926,0.0016 -3.726849,1.641869 -3.771347,3.693314 z"
-       id="path872"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssssssssccccccccc" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.99408288;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect820"
+       width="37.417736"
+       height="37.417736"
+       x="8.8214455"
+       y="4.7823887"
+       rx="5.0781217"
+       ry="5.0781217" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:Audiowide;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       x="29.935738"
+       y="40.72477"
+       id="text838"><tspan
+         sodipodi:role="line"
+         id="tspan836"
+         x="29.935738"
+         y="40.72477"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Audiowide;-inkscape-font-specification:Audiowide;stroke-width:0.26458335">Max</tspan></text>
   </g>
 </svg>

@@ -1,3 +1,5 @@
+notification :off
+
 group :default do
   guard 'rake', :task => 'default' do
     watch %r{data/.*\.xlsx$}
