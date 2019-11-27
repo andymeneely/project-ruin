@@ -21,7 +21,7 @@ jobs:
       run: |
         bundle exec rake
     - name: Upload built cards
-        uses: actions/upload-artifact@v1
-        with:
-          name: cards
-          path: _output
+      uses: actions/upload-artifact@v1
+      with:
+        name: cards
+        path: _output
