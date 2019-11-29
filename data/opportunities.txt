@@ -14,10 +14,9 @@ Required1Icon |                                    |
     Required2 |                                    |
 Required2Icon |                                    |
      BuffType |                                    |
-      Action1 | Take an opportunity card from your |
-              |  pile and place it on your tableau |
-              | .                                  |
+      Action1 | Take an opportunity                |
       Action2 |                                    |
+      Action3 |                                    |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Expand Options                     |
@@ -35,9 +34,10 @@ Required1Icon | electric                           |
     Required2 |                                    |
 Required2Icon |                                    |
      BuffType |                                    |
-      Action1 | While 5 Energy is stored, deal +1  |
-              | Opportunities                      |
+      Action1 |                                    |
       Action2 |                                    |
+      Action3 | While activated, 1 additional Oppo |
+              | rtunity card is available to you.  |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Auto Factory                       |
@@ -57,16 +57,17 @@ Required2Icon |                                    |
      BuffType |                                    |
       Action1 |                                    |
       Action2 |                                    |
+      Action3 |                                    |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Tech Factory                       |
          Tags | Action, Manufacturing              |
      Consume1 | 2                                  |
- Consume1Icon |                                    |
+ Consume1Icon | electric                           |
      Consume2 |                                    |
  Consume2Icon |                                    |
        Store1 | 3                                  |
-   Store1Icon |                                    |
+   Store1Icon | skills                             |
        Store2 |                                    |
    Store2Icon |                                    |
     Required1 |                                    |
@@ -76,4 +77,86 @@ Required2Icon |                                    |
      BuffType |                                    |
       Action1 |                                    |
       Action2 |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Tech School                        |
+         Tags | Action, Organization               |
+     Consume1 | 2                                  |
+ Consume1Icon | electric                           |
+     Consume2 | 5                                  |
+ Consume2Icon | electric                           |
+       Store1 | 1                                  |
+   Store1Icon | pencil-ruler                       |
+       Store2 | 3                                  |
+   Store2Icon | pencil-ruler                       |
+    Required1 |                                    |
+Required1Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+     BuffType |                                    |
+      Action1 |                                    |
+      Action2 |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Hiring                             |
+         Tags | Action, Organization               |
+     Consume1 | 2                                  |
+ Consume1Icon | electric                           |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store1 | 3                                  |
+   Store1Icon | miner                              |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+     BuffType |                                    |
+      Action1 |                                    |
+      Action2 |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Management                         |
+         Tags | Buff, Organization                 |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required1 | 1                                  |
+Required1Icon | tie                                |
+    Required2 |                                    |
+Required2Icon |                                    |
+     BuffType | Organization                       |
+      Action1 |                                    |
+      Action2 |                                    |
+      Action3 | Decrease Energy cost by 1 per mana |
+              | ger                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Something                          |
+         Tags | Action, Awesome                    |
+     Consume1 | 2                                  |
+ Consume1Icon | glass-heart                        |
+     Consume2 | 3                                  |
+ Consume2Icon | flying-beetle                      |
+       Store1 |                                    |
+   Store1Icon |                                    |
+       Store2 | 15                                 |
+   Store2Icon | grain-bundle                       |
+    Required1 | 1                                  |
+Required1Icon | robot-golem                        |
+    Required2 | 1                                  |
+Required2Icon | battle-tank                        |
+     BuffType |                                    |
+      Action1 | Send a blight of flying beetles    |
+      Action2 |                                    |
+      Action3 |                                    |
               ╰------------------------------------╯

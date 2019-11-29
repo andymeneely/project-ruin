@@ -11,30 +11,31 @@ Squib::Deck.new(cards: data.nrows) do
 
   text str: data.name, layout: :name
 
-  # svg file: 'bw/opportunity.svg', width: :deck, height: :deck
-
   %w(Consume1 Consume2 Store1 Store2 Required1 Required2).each do |col|
     data["#{col}SVG"] = data["#{col}Icon"].map do |icon|
       unless icon.to_s.empty?
-        GameIcons.get(icon).recolor(fg: '000', bg_opacity: 0).string
+        GameIcons.get(icon).recolor(fg: 'fff', bg: '000', bg_opacity: 0).string
       end
     end
+    # Draw these UI frames only if the column is not nil
+    # UGH. Looks like a bug in Squib. svg's layout isn't properly supporting expansion
+    svgfile = "bw/#{col.downcase[0..-2]}.svg" # e.g. Store2 --> store.svg
+    svg layout: "#{col}Frame",
+        file: data[col].map { |x| x.to_s.empty? ? nil : svgfile }
     svg data: data["#{col}SVG"], layout: "#{col}Icon"
     text str: data[col], layout: col
-    # Draw these UI frames only if the column is not nil
-    # puts data[col].map { |x| x.to_s.empty? ? nil : "#{col}Frame" }
-    # svg layout: data[col].map { |x| x.to_s.empty? ? nil : "#{col}Frame" }
   end
 
-  svg layout: 'Consume1Frame'
-  svg layout: 'Consume2Frame'
-  svg layout: 'Store1Frame'
-  svg layout: 'Store2Frame'
-  svg layout: 'Required1Frame'
-  svg layout: 'Required2Frame'
-  svg layout: 'Action1'
+  %w(Action1 Action2 Action3).each do |col|
+    svg file: data[col].map {|a| a.nil? ? nil : 'bw/action.svg'},
+        layout: "#{col}Frame"
+    text str: data[col], layout: col
+  end
 
-  text str: data.action1, layout: :Action1
+  svg file: data.buff_type.map { |b| b.nil? ? nil : 'bw/buff.svg' },
+      layout: :BuffFrame
+  text str: data.buff_type, layout: :BuffType
+
   text str: data.tags, layout: :tags
 
   text str: ProjectRuin::VERSION, layout: :version
