@@ -21,7 +21,7 @@ Squib::Deck.new(cards: data.nrows) do
     # UGH. Looks like a bug in Squib. svg's layout isn't properly supporting expansion
     svgfile = "bw/#{col.downcase[0..-2]}.svg" # e.g. Store2 --> store.svg
     svg layout: "#{col}Frame",
-        file: data[col].map { |x| x.to_s.empty? ? nil : svgfile }
+        file: data["#{col}Icon"].map { |x| x.to_s.empty? ? nil : svgfile }
     svg data: data["#{col}SVG"], layout: "#{col}Icon"
     text str: data[col], layout: col
   end
@@ -48,4 +48,8 @@ Squib::Deck.new(cards: data.nrows) do
 
   save prefix: 'opportunity_', format: :png
   save prefix: 'opportunity_preview_', format: :png, trim: '0.125in', trim_radius: '0.125in'
+
+  cut_zone
+  save_sheet prefix: 'opportunity_sheet_', columns: 8,
+             trim: '0.125in', trim_radius: '0.125in'
 end

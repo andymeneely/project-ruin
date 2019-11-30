@@ -1,21 +1,21 @@
               ╭------------------------------------╮
          Name | Seize Opportunity                  |
-         Tags | Action                             |
+         Tags | Action, Opportunity                |
      Consume1 | 3                                  |
  Consume1Icon | electric                           |
-     Consume2 |                                    |
- Consume2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
-       Store2 |                                    |
-   Store2Icon |                                    |
     Required1 |                                    |
 Required1Icon |                                    |
+      Action1 | Take an opportunity                |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
     Required2 |                                    |
 Required2Icon |                                    |
-     BuffType |                                    |
-      Action1 | Take an opportunity                |
       Action2 |                                    |
+     BuffType |                                    |
       Action3 |                                    |
               ╰------------------------------------╯
               ╭------------------------------------╮
@@ -23,19 +23,19 @@ Required2Icon |                                    |
          Tags | Action                             |
      Consume1 |                                    |
  Consume1Icon |                                    |
-     Consume2 |                                    |
- Consume2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
-       Store2 |                                    |
-   Store2Icon |                                    |
     Required1 | 5                                  |
 Required1Icon | electric                           |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
     Required2 |                                    |
 Required2Icon |                                    |
-     BuffType |                                    |
-      Action1 |                                    |
       Action2 |                                    |
+     BuffType |                                    |
       Action3 | While activated, 1 additional Oppo |
               | rtunity card is available to you.  |
               ╰------------------------------------╯
@@ -44,19 +44,19 @@ Required2Icon |                                    |
          Tags | Action, Manufacturing              |
      Consume1 | 3                                  |
  Consume1Icon | electric                           |
-     Consume2 |                                    |
- Consume2Icon |                                    |
        Store1 | 1                                  |
    Store1Icon | city-car                           |
-       Store2 |                                    |
-   Store2Icon |                                    |
     Required1 |                                    |
 Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
     Required2 |                                    |
 Required2Icon |                                    |
-     BuffType |                                    |
-      Action1 |                                    |
       Action2 |                                    |
+     BuffType |                                    |
       Action3 |                                    |
               ╰------------------------------------╯
               ╭------------------------------------╮
@@ -64,19 +64,19 @@ Required2Icon |                                    |
          Tags | Action, Manufacturing              |
      Consume1 | 2                                  |
  Consume1Icon | electric                           |
-     Consume2 |                                    |
- Consume2Icon |                                    |
        Store1 | 3                                  |
    Store1Icon | skills                             |
-       Store2 |                                    |
-   Store2Icon |                                    |
     Required1 |                                    |
 Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
     Required2 |                                    |
 Required2Icon |                                    |
-     BuffType |                                    |
-      Action1 |                                    |
       Action2 |                                    |
+     BuffType |                                    |
       Action3 |                                    |
               ╰------------------------------------╯
               ╭------------------------------------╮
@@ -84,19 +84,19 @@ Required2Icon |                                    |
          Tags | Action, Organization               |
      Consume1 | 2                                  |
  Consume1Icon | electric                           |
-     Consume2 | 5                                  |
- Consume2Icon | electric                           |
        Store1 | 1                                  |
    Store1Icon | pencil-ruler                       |
-       Store2 | 3                                  |
-   Store2Icon | pencil-ruler                       |
     Required1 |                                    |
 Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 | 5                                  |
+ Consume2Icon | electric                           |
+       Store2 | 3                                  |
+   Store2Icon | pencil-ruler                       |
     Required2 |                                    |
 Required2Icon |                                    |
-     BuffType |                                    |
-      Action1 |                                    |
       Action2 |                                    |
+     BuffType |                                    |
       Action3 |                                    |
               ╰------------------------------------╯
               ╭------------------------------------╮
@@ -104,19 +104,19 @@ Required2Icon |                                    |
          Tags | Action, Organization               |
      Consume1 | 2                                  |
  Consume1Icon | electric                           |
-     Consume2 |                                    |
- Consume2Icon |                                    |
        Store1 | 3                                  |
    Store1Icon | miner                              |
-       Store2 |                                    |
-   Store2Icon |                                    |
     Required1 |                                    |
 Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 | 2                                  |
+ Consume2Icon | electric                           |
+       Store2 | 1                                  |
+   Store2Icon | tie                                |
     Required2 |                                    |
 Required2Icon |                                    |
-     BuffType |                                    |
-      Action1 |                                    |
       Action2 |                                    |
+     BuffType |                                    |
       Action3 |                                    |
               ╰------------------------------------╯
               ╭------------------------------------╮
@@ -124,39 +124,523 @@ Required2Icon |                                    |
          Tags | Buff, Organization                 |
      Consume1 |                                    |
  Consume1Icon |                                    |
-     Consume2 |                                    |
- Consume2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
-       Store2 |                                    |
-   Store2Icon |                                    |
     Required1 | 1                                  |
 Required1Icon | tie                                |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
     Required2 |                                    |
 Required2Icon |                                    |
-     BuffType | Organization                       |
-      Action1 |                                    |
       Action2 |                                    |
+     BuffType | Organization                       |
       Action3 | Decrease Energy cost by 1 per mana |
               | ger                                |
               ╰------------------------------------╯
               ╭------------------------------------╮
-         Name | Something                          |
-         Tags | Action, Awesome                    |
-     Consume1 | 2                                  |
- Consume1Icon | glass-heart                        |
-     Consume2 | 3                                  |
- Consume2Icon | flying-beetle                      |
+         Name | Middle Management                  |
+         Tags | Buff, Organization                 |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
-       Store2 | 15                                 |
-   Store2Icon | grain-bundle                       |
-    Required1 | 1                                  |
-Required1Icon | robot-golem                        |
-    Required2 | 1                                  |
-Required2Icon | battle-tank                        |
-     BuffType |                                    |
-      Action1 | Send a blight of flying beetles    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | Maximum Managers is 2              |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
       Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Upper Management                   |
+         Tags | Buff, Organization                 |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | Maximum Managers is 3              |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Executive Team                     |
+         Tags | Buff, Organization                 |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | Maximum Managers is 4              |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Factory Automation                 |
+         Tags | Buff, Manufacturing                |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 | 5                                  |
+Required1Icon | electric                           |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType | Manufacturing                      |
+      Action3 | Increase Max factories to 3.       |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Exchange Opportunity               |
+         Tags | Action                             |
+     Consume1 | 1                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | Swap one available Opportunity wit |
+              | h another player from your purchas |
+              | e rows.                            |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Efficient Operations               |
+         Tags | Buff, Organization                 |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Salvage Yards                      |
+         Tags | Action                             |
+     Consume1 | 1                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 | 1                                  |
+Required1Icon | miner                              |
+      Action1 | Scrap a card on your tableau and p |
+              | lace 3 energy on up to X different |
+              |  cards, where X is the number of w |
+              | orkers.                            |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 | 0                                  |
+Required2Icon | tie                                |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Corporate Jet                      |
+         Tags | Action                             |
+     Consume1 | 1                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | Move this card and any cubes on it |
+              |  to another player.                |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon | tie                                |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Commercial Airline                 |
+         Tags | Action                             |
+     Consume1 | 1                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | Move this card and any cubes on it |
+              |  to another player.                |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon | miner                              |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Military Transport Network         |
+         Tags | Action, Military                   |
+     Consume1 | 1                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | Move up to 2 Soldiers per Officer  |
+              | from this card to a card on anothe |
+              | r player's tableau.                |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon | corporal                           |
+    Required2 | 1                                  |
+Required2Icon | rank-3                             |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Training Camp                      |
+         Tags | Action, Military                   |
+     Consume1 | 2                                  |
+ Consume1Icon | electric                           |
+       Store1 | 3                                  |
+   Store1Icon | corporal                           |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 | 3                                  |
+ Consume2Icon | electric                           |
+       Store2 | 1                                  |
+   Store2Icon | rank-3                             |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Officer Academy                    |
+         Tags | Action, Military                   |
+     Consume1 | 3                                  |
+ Consume1Icon | electric                           |
+       Store1 | 2                                  |
+   Store1Icon | rank-3                             |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Fleet Admiral                      |
+         Tags | Buff, Military                     |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 | 1                                  |
+Required1Icon | rank-3                             |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 | Each craft in this fleet gains 1 e |
+              | xtra Damage                        |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Fleet Expansion                    |
+         Tags | Buff, Military                     |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType | Fleet                              |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Basic Fleet                        |
+         Tags | Fleet, Military                    |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon | interceptor-ship                   |
+    Required1 | 2                                  |
+Required1Icon | corporal                           |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon | spaceship                          |
+    Required2 | 1                                  |
+Required2Icon | rank-3                             |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Spread Efforts                     |
+         Tags | Action                             |
+     Consume1 | 3                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | Move this energy to up to 3 differ |
+              | ent cards on your tableau.         |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Social Media Campaign              |
+         Tags | Action, Internet                   |
+     Consume1 | 5                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | This round, decrease Secrecy by 1  |
+              | instead of by Panic, then discard  |
+              | this card after use.               |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Media Disinformation               |
+         Tags | Action, Internet                   |
+     Consume1 | 2                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | Decrease Panic by 1, then discard  |
+              | this card                          |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Pass on Opportunity                |
+         Tags | Action, Opportunity                |
+     Consume1 | 2                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 | Pass an available opportunity to t |
+              | he player on your left.            |
+     Consume2 | 3                                  |
+ Consume2Icon | electric                           |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 | Pass an available opportunity to a |
+              | ny player.                         |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Expedited Opportunity              |
+         Tags | Buff, Opportunity                  |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType | Opportunity                        |
+      Action3 | When this action consumes energy,  |
+              | you may take an additional opportu |
+              | nity.                              |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | New Strategic Directions           |
+         Tags | Action, Opportunity, Military      |
+     Consume1 | 1                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 | 0                                  |
+Required1Icon | rank-3                             |
+      Action1 | Discard an opportunity. Discard an |
+              |  additional opportunity per Office |
+              | r.                                 |
+     Consume2 | 2                                  |
+ Consume2Icon | electric                           |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 | Shuffle your remaining opportunity |
+              |  cards.                            |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Search for New Opportunities       |
+         Tags | Action, Opportunity                |
+     Consume1 | 2                                  |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 | 1                                  |
+Required1Icon | tie                                |
+      Action1 | Discard an opportunity per Manager |
+              | .                                  |
+     Consume2 | 4                                  |
+ Consume2Icon | electric                           |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 | For each X Managers, X different p |
+              | layers may discard one opportunity |
+              | .                                  |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | University                         |
+         Tags | Action, Humanities                 |
+     Consume1 | 5                                  |
+ Consume1Icon | electric                           |
+       Store1 | 2                                  |
+   Store1Icon | read                               |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 | 3                                  |
+ Consume2Icon | electric                           |
+       Store2 | 1                                  |
+   Store2Icon | fountain-pen                       |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Tech School                        |
+         Tags | Action                             |
+     Consume1 | 2                                  |
+ Consume1Icon | electric                           |
+       Store1 | 1                                  |
+   Store1Icon | pencil-ruler                       |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 | 2                                  |
+ Consume2Icon | electric                           |
+       Store2 | 3                                  |
+   Store2Icon | miner                              |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
       Action3 |                                    |
               ╰------------------------------------╯
