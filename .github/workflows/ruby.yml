@@ -20,8 +20,7 @@ jobs:
     - name: Install fonts
       run: |
         mkdir ~/.fonts
-        cp fonts/*.otf ~/.fonts
-        cp fonts/*.ttf ~/.fonts
+        cp -r fonts/ ~/.fonts
         fc-cache -f -v
     - name: rake
       run: |
