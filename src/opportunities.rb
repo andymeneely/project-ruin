@@ -46,10 +46,12 @@ Squib::Deck.new(cards: data.nrows) do
     cut_zone
   end
 
-  save prefix: 'opportunity_', format: :png
-  save prefix: 'opportunity_preview_', format: :png, trim: '0.125in', trim_radius: '0.125in'
+  save_png prefix: 'opportunity_preview_',
+           trim: '0.125in', trim_radius: '0.125in'
 
   cut_zone
-  save_sheet prefix: 'opportunity_sheet_', columns: 8,
+  save_sheet prefix: 'opportunity_sheet_widescreen_', columns: 12,
+             trim: '0.125in', trim_radius: '0.125in'
+  save_sheet prefix: 'opportunity_sheet_portrait_', columns: 2,
              trim: '0.125in', trim_radius: '0.125in'
 end

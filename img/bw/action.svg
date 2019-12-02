@@ -59,7 +59,7 @@
      transform="translate(-7.7523676,-3.4480656)">
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.99408288;fill-rule:nonzero;stroke:#000000;stroke-width:1.13385832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 28.089844,5.0429688 4.0410156,29.091797 V 96.9082 L 29.597656,122.46484 H 120.40234 L 145.46289,97.4043 V 28.595703 L 121.91016,5.0429688 Z"
+       d="M 28.089844,9.0429687 4.0410156,33.091797 V 96.9082 L 29.597656,122.46484 H 120.40234 L 145.46289,97.4043 V 32.595703 L 121.91016,9.0429687 Z"
        transform="matrix(0.26458334,0,0,0.26458334,7.7523676,3.4480656)"
        id="rect820"
        inkscape:connector-curvature="0"

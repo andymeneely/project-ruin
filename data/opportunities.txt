@@ -42,9 +42,9 @@ Required2Icon |                                    |
               ╭------------------------------------╮
          Name | Auto Factory                       |
          Tags | Action, Manufacturing              |
-     Consume1 | 3                                  |
+     Consume1 | 3:1                                |
  Consume1Icon | electric                           |
-       Store1 | 1                                  |
+       Store1 |                                    |
    Store1Icon | city-car                           |
     Required1 |                                    |
 Required1Icon |                                    |
@@ -62,9 +62,9 @@ Required2Icon |                                    |
               ╭------------------------------------╮
          Name | Tech Factory                       |
          Tags | Action, Manufacturing              |
-     Consume1 | 2                                  |
+     Consume1 | 2:3                                |
  Consume1Icon | electric                           |
-       Store1 | 3                                  |
+       Store1 |                                    |
    Store1Icon | skills                             |
     Required1 |                                    |
 Required1Icon |                                    |
@@ -82,9 +82,9 @@ Required2Icon |                                    |
               ╭------------------------------------╮
          Name | Tech School                        |
          Tags | Action, Organization               |
-     Consume1 | 2                                  |
+     Consume1 | 2:1                                |
  Consume1Icon | electric                           |
-       Store1 | 1                                  |
+       Store1 |                                    |
    Store1Icon | pencil-ruler                       |
     Required1 |                                    |
 Required1Icon |                                    |
@@ -102,9 +102,9 @@ Required2Icon |                                    |
               ╭------------------------------------╮
          Name | Hiring                             |
          Tags | Action, Organization               |
-     Consume1 | 2                                  |
+     Consume1 | 2:1                                |
  Consume1Icon | electric                           |
-       Store1 | 3                                  |
+       Store1 |                                    |
    Store1Icon | miner                              |
     Required1 |                                    |
 Required1Icon |                                    |
@@ -126,7 +126,7 @@ Required2Icon |                                    |
  Consume1Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
-    Required1 | 1                                  |
+    Required1 | Min 1                              |
 Required1Icon | tie                                |
       Action1 |                                    |
      Consume2 |                                    |
@@ -249,8 +249,8 @@ Required2Icon |                                    |
  Consume1Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
-    Required1 |                                    |
-Required1Icon |                                    |
+    Required1 | Min 1                              |
+Required1Icon | tie                                |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -259,8 +259,9 @@ Required1Icon |                                    |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
-     BuffType |                                    |
-      Action3 |                                    |
+     BuffType | Organization                       |
+      Action3 | Decrease Energy costs by 1 per man |
+              | ager, down to a minimum of 2.      |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Salvage Yards                      |
@@ -269,18 +270,17 @@ Required2Icon |                                    |
  Consume1Icon | electric                           |
        Store1 |                                    |
    Store1Icon |                                    |
-    Required1 | 1                                  |
+    Required1 | Min 1                              |
 Required1Icon | miner                              |
-      Action1 | Scrap a card on your tableau and p |
-              | lace 3 energy on up to X different |
-              |  cards, where X is the number of w |
-              | orkers.                            |
+      Action1 | Trash a card on your tableau, gain |
+              |  3 energy on your Funding card, pl |
+              | us one per worker.                 |
      Consume2 |                                    |
  Consume2Icon |                                    |
        Store2 |                                    |
    Store2Icon |                                    |
-    Required2 | 0                                  |
-Required2Icon | tie                                |
+    Required2 |                                    |
+Required2Icon |                                    |
       Action2 |                                    |
      BuffType |                                    |
       Action3 |                                    |
@@ -352,9 +352,9 @@ Required2Icon | rank-3                             |
               ╭------------------------------------╮
          Name | Training Camp                      |
          Tags | Action, Military                   |
-     Consume1 | 2                                  |
+     Consume1 | 2:3                                |
  Consume1Icon | electric                           |
-       Store1 | 3                                  |
+       Store1 |                                    |
    Store1Icon | corporal                           |
     Required1 |                                    |
 Required1Icon |                                    |
@@ -372,9 +372,9 @@ Required2Icon |                                    |
               ╭------------------------------------╮
          Name | Officer Academy                    |
          Tags | Action, Military                   |
-     Consume1 | 3                                  |
+     Consume1 | 3:2                                |
  Consume1Icon | electric                           |
-       Store1 | 2                                  |
+       Store1 |                                    |
    Store1Icon | rank-3                             |
     Required1 |                                    |
 Required1Icon |                                    |
@@ -391,7 +391,7 @@ Required2Icon |                                    |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Fleet Admiral                      |
-         Tags | Buff, Military                     |
+         Tags | Buff, Military, Fleet              |
      Consume1 |                                    |
  Consume1Icon |                                    |
        Store1 |                                    |
@@ -406,19 +406,19 @@ Required1Icon | rank-3                             |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
-     BuffType |                                    |
+     BuffType | Fleet                              |
       Action3 | Each craft in this fleet gains 1 e |
               | xtra Damage                        |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Fleet Expansion                    |
-         Tags | Buff, Military                     |
+         Tags | Buff, Military, Fleet              |
      Consume1 |                                    |
  Consume1Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
-    Required1 |                                    |
-Required1Icon |                                    |
+    Required1 | 2                                  |
+Required1Icon | rank-3                             |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -428,7 +428,8 @@ Required1Icon |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
      BuffType | Fleet                              |
-      Action3 |                                    |
+      Action3 | Double the capacity of this Fleet. |
+              |                                    |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Basic Fleet                        |
@@ -482,7 +483,7 @@ Required2Icon |                                    |
 Required1Icon |                                    |
       Action1 | This round, decrease Secrecy by 1  |
               | instead of by Panic, then discard  |
-              | this card after use.               |
+              | this card.                         |
      Consume2 |                                    |
  Consume2Icon |                                    |
        Store2 |                                    |
@@ -565,7 +566,7 @@ Required2Icon |                                    |
  Consume1Icon | electric                           |
        Store1 |                                    |
    Store1Icon |                                    |
-    Required1 | 0                                  |
+    Required1 | Min 0                              |
 Required1Icon | rank-3                             |
       Action1 | Discard an opportunity. Discard an |
               |  additional opportunity per Office |
@@ -588,7 +589,7 @@ Required2Icon |                                    |
  Consume1Icon | electric                           |
        Store1 |                                    |
    Store1Icon |                                    |
-    Required1 | 1                                  |
+    Required1 | Min 1                              |
 Required1Icon | tie                                |
       Action1 | Discard an opportunity per Manager |
               | .                                  |
@@ -607,9 +608,9 @@ Required2Icon |                                    |
               ╭------------------------------------╮
          Name | University                         |
          Tags | Action, Humanities                 |
-     Consume1 | 5                                  |
+     Consume1 | 5:2                                |
  Consume1Icon | electric                           |
-       Store1 | 2                                  |
+       Store1 |                                    |
    Store1Icon | read                               |
     Required1 |                                    |
 Required1Icon |                                    |
@@ -627,9 +628,9 @@ Required2Icon |                                    |
               ╭------------------------------------╮
          Name | Tech School                        |
          Tags | Action                             |
-     Consume1 | 2                                  |
+     Consume1 | 2:1                                |
  Consume1Icon | electric                           |
-       Store1 | 1                                  |
+       Store1 |                                    |
    Store1Icon | pencil-ruler                       |
     Required1 |                                    |
 Required1Icon |                                    |
@@ -638,6 +639,231 @@ Required1Icon |                                    |
  Consume2Icon | electric                           |
        Store2 | 3                                  |
    Store2Icon | miner                              |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Dangerous Mining                   |
+         Tags | Action, Minerals                   |
+     Consume1 | 2:1                                |
+ Consume1Icon | miner                              |
+       Store1 |                                    |
+   Store1Icon | ore                                |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 | 5                                  |
+ Consume2Icon | electric                           |
+       Store2 | 1                                  |
+   Store2Icon | ore                                |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Interagency Collaborations         |
+         Tags | Buff, Military, Organization       |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 | 1                                  |
+Required1Icon | rank-3                             |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType | Military OR Organization           |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Converted Shipyard                 |
+         Tags | Action, Fleet, Organization        |
+     Consume1 | 2:1                                |
+ Consume1Icon | ore                                |
+       Store1 |                                    |
+   Store1Icon | interceptor-ship                   |
+    Required1 | 2                                  |
+Required1Icon | tie                                |
+      Action1 |                                    |
+     Consume2 | 5                                  |
+ Consume2Icon | ore                                |
+       Store2 | 3                                  |
+   Store2Icon | interceptor-ship                   |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Improved Prospecting               |
+         Tags | Buff, Minerals                     |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 | 3                                  |
+Required1Icon | electric                           |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType | Minerals                           |
+      Action3 | Produce +1 Minerals                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Manual Prospecting                 |
+         Tags | Buff, Minerals                     |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 | Min 1                              |
+Required1Icon | miner                              |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType | Minerals                           |
+      Action3 | Produce 1 extra Minerals per worke |
+              | r, to a maximum of 3.              |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Mining Operations                  |
+         Tags | Action, Minerals                   |
+     Consume1 | 4:1                                |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon | ore                                |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Mining Company                     |
+         Tags | Action, Minerals                   |
+     Consume1 | 3:1                                |
+ Consume1Icon | electric                           |
+       Store1 |                                    |
+   Store1Icon | ore                                |
+    Required1 | 1                                  |
+Required1Icon | tie                                |
+      Action1 |                                    |
+     Consume2 | 1:1                                |
+ Consume2Icon | miner                              |
+       Store2 | 1                                  |
+   Store2Icon | tie                                |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Unknown Material Discovery         |
+         Tags | Quest                              |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType | Quest                              |
+      Action3 | There have been reports some unkno |
+              | wn material uncovered somwhere. I  |
+              | don't know. Writer's block.        |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Naval Shipyard                     |
+         Tags | Action, Fleet, Military            |
+     Consume1 | 4                                  |
+ Consume1Icon | ore                                |
+       Store1 | 3                                  |
+   Store1Icon | interceptor-ship                   |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 | 5                                  |
+ Consume2Icon | ore                                |
+       Store2 | 1                                  |
+   Store2Icon | spaceship                          |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType |                                    |
+      Action3 |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Mining Logistics                   |
+         Tags | Buff, Minerals                     |
+     Consume1 |                                    |
+ Consume1Icon |                                    |
+       Store1 |                                    |
+   Store1Icon |                                    |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 |                                    |
+ Consume2Icon |                                    |
+       Store2 |                                    |
+   Store2Icon |                                    |
+    Required2 |                                    |
+Required2Icon |                                    |
+      Action2 |                                    |
+     BuffType | Minerals                           |
+      Action3 | When this action produces Minerals |
+              | , you may move those minerals to a |
+              | nother action.                     |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Mass Markets                       |
+         Tags | Action, Manufacturing              |
+     Consume1 | 5:30                               |
+ Consume1Icon | ore                                |
+       Store1 |                                    |
+   Store1Icon | electric                           |
+    Required1 |                                    |
+Required1Icon |                                    |
+      Action1 |                                    |
+     Consume2 | 5:20                               |
+ Consume2Icon | city-car                           |
+       Store2 |                                    |
+   Store2Icon | energy                             |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
