@@ -30,16 +30,39 @@ Squib::Deck.new(cards: data.nrows) do
 
   text str: data.name, layout: :name
 
-  %w(Consume1 Consume2 Store1 Store2 Required1 Required2).each do |col|
-    data["#{col}SVG"] = data["#{col}Icon"].map { |i| icon[i] }
-    # Draw these UI frames only if the column is not nil
-    # UGH. Looks like a bug in Squib. svg's layout isn't properly supporting expansion
-    svgfile = "bw/#{col.downcase[0..-2]}.svg" # e.g. Store2 --> store.svg
-    svg layout: "#{col}Frame",
-        file: data["#{col}Icon"].map { |x| x.to_s.empty? ? nil : svgfile }
-    svg data: data["#{col}SVG"], layout: "#{col}Icon"
-    text str: data[col], layout: col
-  end
+
+  # Draw these UI frames only if the column is not nil
+  # UGH. Looks like a bug in Squib. svg's layout isn't properly supporting expansion
+  text str: data["Consume1"], layout: :Consume1
+  svg layout: "Consume1Frame",
+      file: data["Consume1Resource"].map { |r| r.to_s.empty? ? nil : 'bw/consume.svg' }
+  svg data: data["Consume1Resource"].map { |r| icon[r] },
+      layout: :Consume1Resource
+  text str: data["Consume2"], layout: :Consume2
+  svg layout: "Consume2Frame",
+      file: data["Consume2Resource"].map { |r| r.to_s.empty? ? nil : 'bw/consume.svg' }
+  svg data: data["Consume2Resource"].map { |r| icon[r] },
+      layout: :Consume2Resource
+
+  text str: data["Store1"], layout: :Store1
+  svg layout: "Store1Frame",
+      file: data["Store1Resource"].map { |r| r.to_s.empty? ? nil : 'bw/store.svg' }
+  svg data: data["Store1Resource"].map { |r| icon[r] }, layout: :Store1Resource
+  text str: data["Store2"], layout: :Store2
+  svg layout: "Store2Frame",
+      file: data["Store2Resource"].map { |r| r.to_s.empty? ? nil : 'bw/store.svg' }
+  svg data: data["Store2Resource"].map { |r| icon[r] }, layout: :Store2Resource
+
+  text str: data["Required1"], layout: :Required1
+  svg layout: "Required1Frame",
+      file: data["Required1Resource"].map { |r| r.to_s.empty? ? nil : 'bw/store.svg' }
+  svg data: data["Required1Resource"].map { |r| icon[r] },
+      layout: :Required1Resource
+  text str: data["Required2"], layout: :Required2
+  svg layout: "Required2Frame",
+      file: data["Required2Resource"].map { |r| r.to_s.empty? ? nil : 'bw/store.svg' }
+  svg data: data["Required2Resource"].map { |r| icon[r] },
+      layout: :Required2Resource
 
   %w(Action1 Action2 Action3).each do |col|
     svg file: data[col].map {|a| a.nil? ? nil : 'bw/action.svg'},

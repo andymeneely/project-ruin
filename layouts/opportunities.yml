@@ -28,7 +28,7 @@ Consume1:
   align: center
   valign: middle
   font: Audiowide 12
-Consume1Icon:
+Consume1Resource:
   x: 100
   y: 355
   width: 100
@@ -42,8 +42,8 @@ Consume1Frame:
 Consume2:
   extends: Consume1
   y: += 300
-Consume2Icon:
-  extends: Consume1Icon
+Consume2Resource:
+  extends: Consume1Resource
   y: += 300
 Consume2Frame:
   extends: Consume1Frame
@@ -57,7 +57,7 @@ Store1:
   align: right
   valign: middle
   font: Audiowide 12
-Store1Icon:
+Store1Resource:
   x: 435
   y: 355
   width: 100
@@ -70,8 +70,8 @@ Store1Frame:
 Store2:
   extends: Store1
   y: += 300
-Store2Icon:
-  extends: Store1Icon
+Store2Resource:
+  extends: Store1Resource
   y: += 300
 Store2Frame:
   extends: Store1Frame
@@ -85,7 +85,7 @@ Required1:
   align: right
   valign: middle
   font: Audiowide 12
-Required1Icon:
+Required1Resource:
   x: 330
   y: 965
   width: 75
@@ -98,8 +98,8 @@ Required1Frame:
 Required2:
   extends: Required1
   x: += 375
-Required2Icon:
-  extends: Required1Icon
+Required2Resource:
+  extends: Required1Resource
   x: += 375
 Required2Frame:
   extends: Required1Frame
