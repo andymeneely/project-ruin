@@ -8,7 +8,8 @@ CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 desc 'By default, just build the deck without extra options'
 task default: [
   :opportunities,
-  :alien
+  :alien,
+  :tree
 ]
 
 desc 'Build everything, with all the options'

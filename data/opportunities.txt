@@ -2,7 +2,7 @@
          Name | Seize Opportunity                  |
          Tags | Action, Opportunity                |
      Consume1 | 3                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
@@ -26,7 +26,7 @@ Required2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | 5                                  |
-Required1Icon | electric                           |
+Required1Icon | energy                             |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -43,29 +43,9 @@ Required2Icon |                                    |
          Name | Auto Factory                       |
          Tags | Action, Manufacturing              |
      Consume1 | 3:1                                |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
-   Store1Icon | city-car                           |
-    Required1 |                                    |
-Required1Icon |                                    |
-      Action1 |                                    |
-     Consume2 |                                    |
- Consume2Icon |                                    |
-       Store2 |                                    |
-   Store2Icon |                                    |
-    Required2 |                                    |
-Required2Icon |                                    |
-      Action2 |                                    |
-     BuffType |                                    |
-      Action3 |                                    |
-              ╰------------------------------------╯
-              ╭------------------------------------╮
-         Name | Tech Factory                       |
-         Tags | Action, Manufacturing              |
-     Consume1 | 2:3                                |
- Consume1Icon | electric                           |
-       Store1 |                                    |
-   Store1Icon | skills                             |
+   Store1Icon | cars                               |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
@@ -83,16 +63,16 @@ Required2Icon |                                    |
          Name | Tech School                        |
          Tags | Action, Organization               |
      Consume1 | 2:1                                |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
-   Store1Icon | pencil-ruler                       |
+   Store1Icon | engineers                          |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
      Consume2 | 5                                  |
- Consume2Icon | electric                           |
+ Consume2Icon | energy                             |
        Store2 | 3                                  |
-   Store2Icon | pencil-ruler                       |
+   Store2Icon | engineers                          |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -103,16 +83,16 @@ Required2Icon |                                    |
          Name | Hiring                             |
          Tags | Action, Organization               |
      Consume1 | 2:1                                |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
-   Store1Icon | miner                              |
+   Store1Icon | workers                            |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
      Consume2 | 2                                  |
- Consume2Icon | electric                           |
+ Consume2Icon | energy                             |
        Store2 | 1                                  |
-   Store2Icon | tie                                |
+   Store2Icon | managers                           |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -127,7 +107,7 @@ Required2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | Min 1                              |
-Required1Icon | tie                                |
+Required1Icon | managers                           |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -149,7 +129,7 @@ Required2Icon |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
 Required1Icon |                                    |
-      Action1 | Maximum Managers is 2              |
+      Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
        Store2 |                                    |
@@ -157,8 +137,8 @@ Required1Icon |                                    |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
-     BuffType |                                    |
-      Action3 |                                    |
+     BuffType | Organization                       |
+      Action3 | Maximum Managers is 2              |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Upper Management                   |
@@ -169,7 +149,7 @@ Required2Icon |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
 Required1Icon |                                    |
-      Action1 | Maximum Managers is 3              |
+      Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
        Store2 |                                    |
@@ -177,8 +157,8 @@ Required1Icon |                                    |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
-     BuffType |                                    |
-      Action3 |                                    |
+     BuffType | Organization                       |
+      Action3 | Maximum Managers is 3              |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Executive Team                     |
@@ -189,7 +169,7 @@ Required2Icon |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
 Required1Icon |                                    |
-      Action1 | Maximum Managers is 4              |
+      Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
        Store2 |                                    |
@@ -197,8 +177,8 @@ Required1Icon |                                    |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
-     BuffType |                                    |
-      Action3 |                                    |
+     BuffType | Organization                       |
+      Action3 | Maximum Managers is 4              |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Factory Automation                 |
@@ -208,7 +188,7 @@ Required2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | 5                                  |
-Required1Icon | electric                           |
+Required1Icon | energy                             |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -224,7 +204,7 @@ Required2Icon |                                    |
          Name | Exchange Opportunity               |
          Tags | Action                             |
      Consume1 | 1                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
@@ -250,7 +230,7 @@ Required2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | Min 1                              |
-Required1Icon | tie                                |
+Required1Icon | managers                           |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -267,11 +247,11 @@ Required2Icon |                                    |
          Name | Salvage Yards                      |
          Tags | Action                             |
      Consume1 | 1                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | Min 1                              |
-Required1Icon | miner                              |
+Required1Icon | workers                            |
       Action1 | Trash a card on your tableau, gain |
               |  3 energy on your Funding card, pl |
               | us one per worker.                 |
@@ -289,7 +269,7 @@ Required2Icon |                                    |
          Name | Corporate Jet                      |
          Tags | Action                             |
      Consume1 | 1                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
@@ -299,7 +279,7 @@ Required1Icon |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
        Store2 |                                    |
-   Store2Icon | tie                                |
+   Store2Icon | managers                           |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -310,7 +290,7 @@ Required2Icon |                                    |
          Name | Commercial Airline                 |
          Tags | Action                             |
      Consume1 | 1                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
@@ -320,7 +300,7 @@ Required1Icon |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
        Store2 |                                    |
-   Store2Icon | miner                              |
+   Store2Icon | workers                            |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -331,7 +311,7 @@ Required2Icon |                                    |
          Name | Military Transport Network         |
          Tags | Action, Military                   |
      Consume1 | 1                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
@@ -342,9 +322,9 @@ Required1Icon |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
        Store2 |                                    |
-   Store2Icon | corporal                           |
+   Store2Icon | soldiers                           |
     Required2 | 1                                  |
-Required2Icon | rank-3                             |
+Required2Icon | officers                           |
       Action2 |                                    |
      BuffType |                                    |
       Action3 |                                    |
@@ -353,16 +333,16 @@ Required2Icon | rank-3                             |
          Name | Training Camp                      |
          Tags | Action, Military                   |
      Consume1 | 2:3                                |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
-   Store1Icon | corporal                           |
+   Store1Icon | soldiers                           |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
      Consume2 | 3                                  |
- Consume2Icon | electric                           |
+ Consume2Icon | energy                             |
        Store2 | 1                                  |
-   Store2Icon | rank-3                             |
+   Store2Icon | officers                           |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -373,9 +353,9 @@ Required2Icon |                                    |
          Name | Officer Academy                    |
          Tags | Action, Military                   |
      Consume1 | 3:2                                |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
-   Store1Icon | rank-3                             |
+   Store1Icon | officers                           |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
@@ -397,7 +377,7 @@ Required2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | 1                                  |
-Required1Icon | rank-3                             |
+Required1Icon | officers                           |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -418,7 +398,7 @@ Required2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | 2                                  |
-Required1Icon | rank-3                             |
+Required1Icon | officers                           |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -437,16 +417,16 @@ Required2Icon |                                    |
      Consume1 |                                    |
  Consume1Icon |                                    |
        Store1 |                                    |
-   Store1Icon | interceptor-ship                   |
+   Store1Icon | fighters                           |
     Required1 | 2                                  |
-Required1Icon | corporal                           |
+Required1Icon | soldiers                           |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
        Store2 |                                    |
-   Store2Icon | spaceship                          |
+   Store2Icon | destroyers                         |
     Required2 | 1                                  |
-Required2Icon | rank-3                             |
+Required2Icon | officers                           |
       Action2 |                                    |
      BuffType |                                    |
       Action3 |                                    |
@@ -455,7 +435,7 @@ Required2Icon | rank-3                             |
          Name | Spread Efforts                     |
          Tags | Action                             |
      Consume1 | 3                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
@@ -476,7 +456,7 @@ Required2Icon |                                    |
          Name | Social Media Campaign              |
          Tags | Action, Internet                   |
      Consume1 | 5                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
@@ -498,7 +478,7 @@ Required2Icon |                                    |
          Name | Media Disinformation               |
          Tags | Action, Internet                   |
      Consume1 | 2                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
@@ -519,7 +499,7 @@ Required2Icon |                                    |
          Name | Pass on Opportunity                |
          Tags | Action, Opportunity                |
      Consume1 | 2                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
@@ -527,7 +507,7 @@ Required1Icon |                                    |
       Action1 | Pass an available opportunity to t |
               | he player on your left.            |
      Consume2 | 3                                  |
- Consume2Icon | electric                           |
+ Consume2Icon | energy                             |
        Store2 |                                    |
    Store2Icon |                                    |
     Required2 |                                    |
@@ -541,7 +521,7 @@ Required2Icon |                                    |
          Name | Expedited Opportunity              |
          Tags | Buff, Opportunity                  |
      Consume1 |                                    |
- Consume1Icon |                                    |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 |                                    |
@@ -563,16 +543,16 @@ Required2Icon |                                    |
          Name | New Strategic Directions           |
          Tags | Action, Opportunity, Military      |
      Consume1 | 1                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | Min 0                              |
-Required1Icon | rank-3                             |
+Required1Icon | officer                            |
       Action1 | Discard an opportunity. Discard an |
               |  additional opportunity per Office |
               | r.                                 |
      Consume2 | 2                                  |
- Consume2Icon | electric                           |
+ Consume2Icon | energy                             |
        Store2 |                                    |
    Store2Icon |                                    |
     Required2 |                                    |
@@ -586,15 +566,15 @@ Required2Icon |                                    |
          Name | Search for New Opportunities       |
          Tags | Action, Opportunity                |
      Consume1 | 2                                  |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | Min 1                              |
-Required1Icon | tie                                |
+Required1Icon | managers                           |
       Action1 | Discard an opportunity per Manager |
               | .                                  |
      Consume2 | 4                                  |
- Consume2Icon | electric                           |
+ Consume2Icon | energy                             |
        Store2 |                                    |
    Store2Icon |                                    |
     Required2 |                                    |
@@ -609,16 +589,16 @@ Required2Icon |                                    |
          Name | University                         |
          Tags | Action, Humanities                 |
      Consume1 | 5:2                                |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
-   Store1Icon | read                               |
+   Store1Icon | linguist                           |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
      Consume2 | 3                                  |
- Consume2Icon | electric                           |
+ Consume2Icon | energy                             |
        Store2 | 1                                  |
-   Store2Icon | fountain-pen                       |
+   Store2Icon | theologian                         |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -629,16 +609,16 @@ Required2Icon |                                    |
          Name | Tech School                        |
          Tags | Action                             |
      Consume1 | 2:1                                |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
-   Store1Icon | pencil-ruler                       |
+   Store1Icon | engineers                          |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
      Consume2 | 2                                  |
- Consume2Icon | electric                           |
+ Consume2Icon | energy                             |
        Store2 | 3                                  |
-   Store2Icon | miner                              |
+   Store2Icon | workers                            |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -649,16 +629,16 @@ Required2Icon |                                    |
          Name | Dangerous Mining                   |
          Tags | Action, Minerals                   |
      Consume1 | 2:1                                |
- Consume1Icon | miner                              |
+ Consume1Icon | workers                            |
        Store1 |                                    |
-   Store1Icon | ore                                |
+   Store1Icon | minerals                           |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
      Consume2 | 5                                  |
- Consume2Icon | electric                           |
+ Consume2Icon | energy                             |
        Store2 | 1                                  |
-   Store2Icon | ore                                |
+   Store2Icon | minerals                           |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -673,7 +653,7 @@ Required2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | 1                                  |
-Required1Icon | rank-3                             |
+Required1Icon | officers                           |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -689,16 +669,16 @@ Required2Icon |                                    |
          Name | Converted Shipyard                 |
          Tags | Action, Fleet, Organization        |
      Consume1 | 2:1                                |
- Consume1Icon | ore                                |
+ Consume1Icon | minerals                           |
        Store1 |                                    |
-   Store1Icon | interceptor-ship                   |
+   Store1Icon | fighters                           |
     Required1 | 2                                  |
-Required1Icon | tie                                |
+Required1Icon | managers                           |
       Action1 |                                    |
      Consume2 | 5                                  |
- Consume2Icon | ore                                |
+ Consume2Icon | minerals                           |
        Store2 | 3                                  |
-   Store2Icon | interceptor-ship                   |
+   Store2Icon | fighters                           |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -713,7 +693,7 @@ Required2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | 3                                  |
-Required1Icon | electric                           |
+Required1Icon | energy                             |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -733,7 +713,7 @@ Required2Icon |                                    |
        Store1 |                                    |
    Store1Icon |                                    |
     Required1 | Min 1                              |
-Required1Icon | miner                              |
+Required1Icon | workers                            |
       Action1 |                                    |
      Consume2 |                                    |
  Consume2Icon |                                    |
@@ -750,9 +730,9 @@ Required2Icon |                                    |
          Name | Mining Operations                  |
          Tags | Action, Minerals                   |
      Consume1 | 4:1                                |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
-   Store1Icon | ore                                |
+   Store1Icon | minerals                           |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
@@ -770,16 +750,16 @@ Required2Icon |                                    |
          Name | Mining Company                     |
          Tags | Action, Minerals                   |
      Consume1 | 3:1                                |
- Consume1Icon | electric                           |
+ Consume1Icon | energy                             |
        Store1 |                                    |
-   Store1Icon | ore                                |
+   Store1Icon | minerals                           |
     Required1 | 1                                  |
-Required1Icon | tie                                |
+Required1Icon | managers                           |
       Action1 |                                    |
      Consume2 | 1:1                                |
- Consume2Icon | miner                              |
+ Consume2Icon | workers                            |
        Store2 | 1                                  |
-   Store2Icon | tie                                |
+   Store2Icon | managers                           |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -812,16 +792,16 @@ Required2Icon |                                    |
          Name | Naval Shipyard                     |
          Tags | Action, Fleet, Military            |
      Consume1 | 4                                  |
- Consume1Icon | ore                                |
+ Consume1Icon | minerals                           |
        Store1 | 3                                  |
-   Store1Icon | interceptor-ship                   |
+   Store1Icon | fighters                           |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
      Consume2 | 5                                  |
- Consume2Icon | ore                                |
+ Consume2Icon | minerals                           |
        Store2 | 1                                  |
-   Store2Icon | spaceship                          |
+   Store2Icon | destroyers                         |
     Required2 |                                    |
 Required2Icon |                                    |
       Action2 |                                    |
@@ -854,14 +834,14 @@ Required2Icon |                                    |
          Name | Mass Markets                       |
          Tags | Action, Manufacturing              |
      Consume1 | 5:30                               |
- Consume1Icon | ore                                |
+ Consume1Icon | minerals                           |
        Store1 |                                    |
-   Store1Icon | electric                           |
+   Store1Icon | energy                             |
     Required1 |                                    |
 Required1Icon |                                    |
       Action1 |                                    |
      Consume2 | 5:20                               |
- Consume2Icon | city-car                           |
+ Consume2Icon | cars                               |
        Store2 |                                    |
    Store2Icon | energy                             |
     Required2 |                                    |

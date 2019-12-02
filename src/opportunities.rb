@@ -11,14 +11,14 @@ end
 
 icon = {
   'cars'       => game_icon('city-car'),
-  'destroyer'  => game_icon('spaceship'),
+  'destroyers' => game_icon('spaceship'),
   'energy'     => game_icon('electric'),
   'engineers'  => game_icon('pencil-ruler'),
   'fighters'   => game_icon('interceptor-ship'),
   'linguist'   => game_icon('read'),
   'managers'   => game_icon('tie'),
   'minerals'   => game_icon('ore'),
-  'officer'    => game_icon('rank-3'),
+  'officers'   => game_icon('rank-3'),
   'soldiers'   => game_icon('corporal'),
   'theologian' => game_icon('moebius-triangle'),
   'workers'    => game_icon('miner'),
