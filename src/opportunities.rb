@@ -82,11 +82,15 @@ Squib::Deck.new(cards: data.nrows) do
       layout: :BuffFrame
   text str: data.buff_type, layout: :BuffType
 
+  svg file: data.buff_action.map {|a| a.nil? ? nil : 'bw/buff-action.svg'},
+      layout: "BuffActionFrame"
+  text str: data.buff_action, layout: :BuffAction
+
   text str: data.tags, layout: :tags
 
   text str: ProjectRuin::VERSION, layout: :version
 
-  # enable_build :proofs
+  enable_build :proofs
   build(:proofs) do
     safe_zone
     cut_zone
@@ -104,5 +108,5 @@ Squib::Deck.new(cards: data.nrows) do
              trim: '0.125in', trim_radius: '0.125in'
   save_sheet prefix: 'opportunity_sheet_portrait_', columns: 2,
              trim: '0.125in', trim_radius: '0.125in'
-  
+
 end

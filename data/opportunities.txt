@@ -15,8 +15,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Expand Options                     |
@@ -35,9 +36,10 @@ Required1Resource | energy                             |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 | While activated, 1 additional Oppo |
                   | rtunity card is available to you.  |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Auto Factory                       |
@@ -56,8 +58,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Tech School                        |
@@ -76,8 +79,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Hiring                             |
@@ -96,8 +100,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Management                         |
@@ -116,8 +121,9 @@ Required1Resource | managers                           |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Organization                       |
-          Action3 | Decrease Energy cost by 1 per mana |
+       BuffAction | Decrease Energy cost by 1 per mana |
                   | ger                                |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
@@ -137,8 +143,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Organization                       |
-          Action3 | Maximum Managers is 2              |
+       BuffAction | Maximum Managers is 2              |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Upper Management                   |
@@ -157,8 +164,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Organization                       |
-          Action3 | Maximum Managers is 3              |
+       BuffAction | Maximum Managers is 3              |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Executive Team                     |
@@ -177,8 +185,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Organization                       |
-          Action3 | Maximum Managers is 4              |
+       BuffAction | Maximum Managers is 4              |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Factory Automation                 |
@@ -197,8 +206,9 @@ Required1Resource | energy                             |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Manufacturing                      |
-          Action3 | Increase Max factories to 3.       |
+       BuffAction | Increase Max factories to 3.       |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Exchange Opportunity               |
@@ -219,8 +229,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Efficient Operations               |
@@ -239,8 +250,9 @@ Required1Resource | managers                           |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Organization                       |
-          Action3 | Decrease Energy costs by 1 per man |
+       BuffAction | Decrease Energy costs by 1 per man |
                   | ager, down to a minimum of 2.      |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
@@ -262,8 +274,9 @@ Required1Resource | workers                            |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Corporate Jet                      |
@@ -283,8 +296,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Commercial Airline                 |
@@ -304,8 +318,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Military Transport Network         |
@@ -326,8 +341,9 @@ Required1Resource |                                    |
         Required2 | 1                                  |
 Required2Resource | officers                           |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Training Camp                      |
@@ -346,8 +362,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Officer Academy                    |
@@ -366,8 +383,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Fleet Admiral                      |
@@ -386,8 +404,9 @@ Required1Resource | officers                           |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Fleet                              |
-          Action3 | Each craft in this fleet gains 1 e |
+       BuffAction | Each craft in this fleet gains 1 e |
                   | xtra Damage                        |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
@@ -407,8 +426,9 @@ Required1Resource | officers                           |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Fleet                              |
-          Action3 | Double the capacity of this Fleet. |
+       BuffAction | Double the capacity of this Fleet. |
                   |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
@@ -428,8 +448,9 @@ Required1Resource | soldiers                           |
         Required2 | 1                                  |
 Required2Resource | officers                           |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Spread Efforts                     |
@@ -449,8 +470,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Social Media Campaign              |
@@ -471,8 +493,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Media Disinformation               |
@@ -492,8 +515,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Pass on Opportunity                |
@@ -514,8 +538,9 @@ Required1Resource |                                    |
 Required2Resource |                                    |
           Action2 | Pass an available opportunity to a |
                   | ny player.                         |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Expedited Opportunity              |
@@ -534,8 +559,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Opportunity                        |
-          Action3 | When this action consumes energy,  |
+       BuffAction | When this action consumes energy,  |
                   | you may take an additional opportu |
                   | nity.                              |
                   ╰------------------------------------╯
@@ -559,8 +585,9 @@ Required1Resource | officers                           |
 Required2Resource |                                    |
           Action2 | Shuffle your remaining opportunity |
                   |  cards.                            |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Search for New Opportunities       |
@@ -582,8 +609,9 @@ Required2Resource |                                    |
           Action2 | For each X Managers, X different p |
                   | layers may discard one opportunity |
                   | .                                  |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | University                         |
@@ -602,8 +630,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Tech School                        |
@@ -622,8 +651,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Dangerous Mining                   |
@@ -642,8 +672,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Interagency Collaborations         |
@@ -662,8 +693,9 @@ Required1Resource | officers                           |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType | Military OR Organization           |
           Action3 |                                    |
+         BuffType | Military OR Organization           |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Converted Shipyard                 |
@@ -682,8 +714,9 @@ Required1Resource | managers                           |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Improved Prospecting               |
@@ -702,8 +735,9 @@ Required1Resource | energy                             |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Minerals                           |
-          Action3 | Produce +1 Minerals                |
+       BuffAction | Produce +1 Minerals                |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Manual Prospecting                 |
@@ -722,8 +756,9 @@ Required1Resource | workers                            |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Minerals                           |
-          Action3 | Produce 1 extra Minerals per worke |
+       BuffAction | Produce 1 extra Minerals per worke |
                   | r, to a maximum of 3.              |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
@@ -743,8 +778,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Mining Company                     |
@@ -763,8 +799,9 @@ Required1Resource | managers                           |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Unknown Material Discovery         |
@@ -783,10 +820,11 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType | Quest                              |
           Action3 | There have been reports some unkno |
                   | wn material uncovered somwhere. I  |
                   | don't know. Writer's block.        |
+         BuffType | Quest                              |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Naval Shipyard                     |
@@ -805,8 +843,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Mining Logistics                   |
@@ -825,8 +864,9 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
+          Action3 |                                    |
          BuffType | Minerals                           |
-          Action3 | When this action produces Minerals |
+       BuffAction | When this action produces Minerals |
                   | , you may move those minerals to a |
                   | nother action.                     |
                   ╰------------------------------------╯
@@ -847,6 +887,7 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-         BuffType |                                    |
           Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
