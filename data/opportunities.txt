@@ -416,14 +416,14 @@ Required2Resource |                                    |
              Tags | Fleet, Military                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
-           Store1 |                                    |
+           Store1 | Max 3                              |
    Store1Resource | fighters                           |
         Required1 | 2                                  |
 Required1Resource | soldiers                           |
           Action1 |                                    |
          Consume2 |                                    |
  Consume2Resource |                                    |
-           Store2 |                                    |
+           Store2 | Max 2                              |
    Store2Resource | destroyers                         |
         Required2 | 1                                  |
 Required2Resource | officers                           |
@@ -521,7 +521,7 @@ Required2Resource |                                    |
              Name | Expedited Opportunity              |
              Tags | Buff, Opportunity                  |
          Consume1 |                                    |
- Consume1Resource | energy                             |
+ Consume1Resource |                                    |
            Store1 |                                    |
    Store1Resource |                                    |
         Required1 |                                    |
@@ -547,7 +547,7 @@ Required2Resource |                                    |
            Store1 |                                    |
    Store1Resource |                                    |
         Required1 | Min 0                              |
-Required1Resource | officer                            |
+Required1Resource | officers                           |
           Action1 | Discard an opportunity. Discard an |
                   |  additional opportunity per Office |
                   | r.                                 |
@@ -630,14 +630,14 @@ Required2Resource |                                    |
              Tags | Action, Minerals                   |
          Consume1 | 2:1                                |
  Consume1Resource | workers                            |
-           Store1 |                                    |
+           Store1 | Max 5                              |
    Store1Resource | minerals                           |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
          Consume2 | 5:1                                |
  Consume2Resource | energy                             |
-           Store2 |                                    |
+           Store2 | Max 5                              |
    Store2Resource | minerals                           |
         Required2 |                                    |
 Required2Resource |                                    |
@@ -670,14 +670,14 @@ Required2Resource |                                    |
              Tags | Action, Fleet, Organization        |
          Consume1 | 2:1                                |
  Consume1Resource | minerals                           |
-           Store1 |                                    |
+           Store1 | Max 3                              |
    Store1Resource | fighters                           |
         Required1 | 2                                  |
 Required1Resource | managers                           |
           Action1 |                                    |
          Consume2 | 5:3                                |
  Consume2Resource | minerals                           |
-           Store2 |                                    |
+           Store2 | Max 3                              |
    Store2Resource | fighters                           |
         Required2 |                                    |
 Required2Resource |                                    |
@@ -793,14 +793,14 @@ Required2Resource |                                    |
              Tags | Action, Fleet, Military            |
          Consume1 | 4:3                                |
  Consume1Resource | minerals                           |
-           Store1 |                                    |
+           Store1 | Max 4                              |
    Store1Resource | fighters                           |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
          Consume2 | 5:1                                |
  Consume2Resource | minerals                           |
-           Store2 |                                    |
+           Store2 | Max 3                              |
    Store2Resource | destroyers                         |
         Required2 |                                    |
 Required2Resource |                                    |
