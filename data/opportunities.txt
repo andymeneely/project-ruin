@@ -44,7 +44,7 @@ Required2Resource |                                    |
              Tags | Action, Manufacturing              |
          Consume1 | 3:1                                |
  Consume1Resource | energy                             |
-           Store1 |                                    |
+           Store1 | Max 3                              |
    Store1Resource | cars                               |
         Required1 |                                    |
 Required1Resource |                                    |
@@ -69,9 +69,9 @@ Required2Resource |                                    |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
-         Consume2 | 5                                  |
+         Consume2 | 5:3                                |
  Consume2Resource | energy                             |
-           Store2 | 3                                  |
+           Store2 |                                    |
    Store2Resource | engineers                          |
         Required2 |                                    |
 Required2Resource |                                    |
@@ -89,9 +89,9 @@ Required2Resource |                                    |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
-         Consume2 | 2                                  |
+         Consume2 | 2:1                                |
  Consume2Resource | energy                             |
-           Store2 | 1                                  |
+           Store2 |                                    |
    Store2Resource | managers                           |
         Required2 |                                    |
 Required2Resource |                                    |
@@ -339,9 +339,9 @@ Required2Resource | officers                           |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
-         Consume2 | 3                                  |
+         Consume2 | 3:1                                |
  Consume2Resource | energy                             |
-           Store2 | 1                                  |
+           Store2 |                                    |
    Store2Resource | officers                           |
         Required2 |                                    |
 Required2Resource |                                    |
@@ -595,9 +595,9 @@ Required2Resource |                                    |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
-         Consume2 | 3                                  |
+         Consume2 | 3:1                                |
  Consume2Resource | energy                             |
-           Store2 | 1                                  |
+           Store2 |                                    |
    Store2Resource | theologian                         |
         Required2 |                                    |
 Required2Resource |                                    |
@@ -615,9 +615,9 @@ Required2Resource |                                    |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
-         Consume2 | 2                                  |
+         Consume2 | 2:3                                |
  Consume2Resource | energy                             |
-           Store2 | 3                                  |
+           Store2 |                                    |
    Store2Resource | workers                            |
         Required2 |                                    |
 Required2Resource |                                    |
@@ -635,9 +635,9 @@ Required2Resource |                                    |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
-         Consume2 | 5                                  |
+         Consume2 | 5:1                                |
  Consume2Resource | energy                             |
-           Store2 | 1                                  |
+           Store2 |                                    |
    Store2Resource | minerals                           |
         Required2 |                                    |
 Required2Resource |                                    |
@@ -675,9 +675,9 @@ Required2Resource |                                    |
         Required1 | 2                                  |
 Required1Resource | managers                           |
           Action1 |                                    |
-         Consume2 | 5                                  |
+         Consume2 | 5:3                                |
  Consume2Resource | minerals                           |
-           Store2 | 3                                  |
+           Store2 |                                    |
    Store2Resource | fighters                           |
         Required2 |                                    |
 Required2Resource |                                    |
@@ -758,7 +758,7 @@ Required1Resource | managers                           |
           Action1 |                                    |
          Consume2 | 1:1                                |
  Consume2Resource | workers                            |
-           Store2 | 1                                  |
+           Store2 |                                    |
    Store2Resource | managers                           |
         Required2 |                                    |
 Required2Resource |                                    |
@@ -791,16 +791,16 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Naval Shipyard                     |
              Tags | Action, Fleet, Military            |
-         Consume1 | 4                                  |
+         Consume1 | 4:3                                |
  Consume1Resource | minerals                           |
-           Store1 | 3                                  |
+           Store1 |                                    |
    Store1Resource | fighters                           |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
-         Consume2 | 5                                  |
+         Consume2 | 5:1                                |
  Consume2Resource | minerals                           |
-           Store2 | 1                                  |
+           Store2 |                                    |
    Store2Resource | destroyers                         |
         Required2 |                                    |
 Required2Resource |                                    |

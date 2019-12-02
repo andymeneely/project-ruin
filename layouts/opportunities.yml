@@ -23,11 +23,11 @@ tags:
 Consume1:
   x: 205
   y: 365
-  width: 100
+  width: 120
   height: 85
   align: center
   valign: middle
-  font: Audiowide 12
+  font: Audiowide 10
 Consume1Resource:
   x: 100
   y: 355
@@ -38,25 +38,33 @@ Consume1Frame:
   y: 295
   width: 350
   height: 350
-  # file: bw/consume.svg
+Consume1ResourceText:
+  extends: Consume1Resource
+  y: += 100
+  x: -= 30
+  width: += 60
+  font: Roboto Slab, 7
+  align: center
 Consume2:
   extends: Consume1
   y: += 300
 Consume2Resource:
   extends: Consume1Resource
   y: += 300
+Consume2ResourceText:
+  extends: Consume1ResourceText
+  y: += 300
 Consume2Frame:
   extends: Consume1Frame
   y: += 300
 
 Store1:
-  x: 325
-  y: 365
-  width: 85
+  x: 445
+  y: 285
+  width: 150
   height: 85
   align: right
-  valign: middle
-  font: Audiowide 12
+  font: Audiowide 7
 Store1Resource:
   x: 435
   y: 355
@@ -67,6 +75,13 @@ Store1Frame:
   y: 265
   width: 275
   height: 275
+Store1ResourceText:
+  extends: Store1Resource
+  y: += 100
+  x: -= 30
+  width: += 60
+  font: Roboto Slab, 7
+  align: center
 Store2:
   extends: Store1
   y: += 300
@@ -76,25 +91,35 @@ Store2Resource:
 Store2Frame:
   extends: Store1Frame
   y: += 300
+Store2ResourceText:
+  extends: Store1ResourceText
+  y: += 300
 
 Required1:
-  x: 150
-  y: 965
-  width: 150
+  x: 135
+  y: 865
+  width: 175
   height: 75
-  align: right
+  align: center
   valign: middle
-  font: Audiowide 12
+  font: Audiowide 10
 Required1Resource:
   x: 330
-  y: 965
+  y: 875
   width: 75
   height: 75
 Required1Frame:
   x: 125
-  y: 945
+  y: 855
   width: 300
   height: 300
+Required1ResourceText:
+  extends: Required1Resource
+  y: += 85
+  x: -= 70
+  width: += 75
+  font: Roboto Slab, 7
+  align: right
 Required2:
   extends: Required1
   x: += 375
@@ -103,6 +128,9 @@ Required2Resource:
   x: += 375
 Required2Frame:
   extends: Required1Frame
+  x: += 375
+Required2ResourceText:
+  extends: Required1ResourceText
   x: += 375
 
 Action1:

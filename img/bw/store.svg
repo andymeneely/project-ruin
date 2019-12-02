@@ -74,17 +74,6 @@
        y="4.7823887"
        rx="5.0781217"
        ry="5.0781217" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:Audiowide;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
-       x="29.935738"
-       y="40.72477"
-       id="text838"><tspan
-         sodipodi:role="line"
-         id="tspan836"
-         x="29.935738"
-         y="40.72477"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Audiowide;-inkscape-font-specification:Audiowide;stroke-width:0.26458335">Max</tspan></text>
     <path
        id="path818"
        d="m 21.840637,15.93859 h 11.37935 c 1.032198,0 1.862992,0.830793 1.862992,1.862991 v 11.379351 c 0,1.032197 -0.830794,1.862991 -1.862992,1.862991 h -11.37935 c -1.032198,0 -1.86299,-0.830794 -1.86299,-1.862991 V 17.801581 c 0,-1.032198 0.830792,-1.862991 1.86299,-1.862991 z"
