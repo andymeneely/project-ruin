@@ -154,7 +154,9 @@ Description:
 
 version:
   font: Arial 6
-  x: 2.35in
-  y: 0.20in
+  x: 0.25in
+  y: 3.25in
+  # x: 2.35in
+  # y: 0.20in
   # y: 3.25in
   # y: 2.9in
