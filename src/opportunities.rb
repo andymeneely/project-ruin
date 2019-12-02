@@ -5,6 +5,25 @@ require_relative 'version'
 data = Squib.xlsx file: 'data/game.xlsx', sheet: 0
 File.open('data/opportunities.txt', 'w+') { |f| f.write data.to_pretty_text }
 
+def game_icon(str)
+  GameIcons.get(str).recolor(fg: 'fff', bg: '000', bg_opacity: 0).string
+end
+
+icon = {
+  'cars'       => game_icon('city-car'),
+  'destroyer'  => game_icon('spaceship'),
+  'energy'     => game_icon('electric'),
+  'engineers'  => game_icon('pencil-ruler'),
+  'fighters'   => game_icon('interceptor-ship'),
+  'linguist'   => game_icon('read'),
+  'managers'   => game_icon('tie'),
+  'minerals'   => game_icon('ore'),
+  'officer'    => game_icon('rank-3'),
+  'soldiers'   => game_icon('corporal'),
+  'theologian' => game_icon('moebius-triangle'),
+  'workers'    => game_icon('miner'),
+}
+
 Squib::Deck.new(cards: data.nrows) do
   background color: :white
   use_layout file: 'layouts/opportunities.yml'
@@ -12,11 +31,7 @@ Squib::Deck.new(cards: data.nrows) do
   text str: data.name, layout: :name
 
   %w(Consume1 Consume2 Store1 Store2 Required1 Required2).each do |col|
-    data["#{col}SVG"] = data["#{col}Icon"].map do |icon|
-      unless icon.to_s.empty?
-        GameIcons.get(icon).recolor(fg: 'fff', bg: '000', bg_opacity: 0).string
-      end
-    end
+    data["#{col}SVG"] = data["#{col}Icon"].map { |i| icon[i] }
     # Draw these UI frames only if the column is not nil
     # UGH. Looks like a bug in Squib. svg's layout isn't properly supporting expansion
     svgfile = "bw/#{col.downcase[0..-2]}.svg" # e.g. Store2 --> store.svg
