@@ -173,11 +173,13 @@ BuffFrame:
   height: 1000
 BuffType:
   extends: BuffFrame
-  x: += 50
+  x: += 20
   y: += 625
-  width: 250
+  width: 350
+  height: 135
   angle: -1.57 # pi / 2
   font: AudioWide 10
+  valign: middle
 BuffAction:
   x: 100
   y: 265

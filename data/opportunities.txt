@@ -823,7 +823,7 @@ Required2Resource |                                    |
           Action3 | There have been reports some unkno |
                   | wn material uncovered somwhere. I  |
                   | don't know. Writer's block.        |
-         BuffType | Quest                              |
+         BuffType |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮

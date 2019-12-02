@@ -90,7 +90,7 @@ Squib::Deck.new(cards: data.nrows) do
 
   text str: ProjectRuin::VERSION, layout: :version
 
-  enable_build :proofs
+  # enable_build :proofs
   build(:proofs) do
     safe_zone
     cut_zone
