@@ -28,3 +28,6 @@ end
 
 desc 'Save brainstorming notes from SimpleNote'
 task(:notes) { load 'src/notes.rb' }
+
+desc 'Build production tree in Mermaid'
+task(:tree) { load 'src/tree.rb' }

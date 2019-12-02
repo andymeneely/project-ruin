@@ -9,6 +9,7 @@ GEM
       glib2 (= 3.4.1)
     classy_hash (0.2.1)
     coderay (1.1.2)
+    ffi (1.11.3)
     ffi (1.11.3-x64-mingw32)
     formatador (0.2.5)
     game_icons (0.43.0.20191126)
@@ -43,6 +44,8 @@ GEM
     mini_portile2 (2.4.0)
     native-package-installer (1.0.8)
     nenv (0.3.0)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.4-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     notiffany (0.1.3)
@@ -83,6 +86,7 @@ GEM
     thor (0.20.3)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
