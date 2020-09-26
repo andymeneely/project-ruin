@@ -3,15 +3,16 @@
 
 <head>
   <link rel="manifest" href="/manifest.json">
+  <meta name="robots" content="noindex,nofollow">
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
-  <meta name="theme-color" content="#4895d9" />
+  <meta name="theme-color" content="#3361cc" />
   <meta name="referrer" content="origin" />
-  <title>Science the Aliens</title>
+  <title>Project Ruin</title>
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet" />
   <link rel="shortcut icon" type="image/x-icon" sizes="16x16 32x32 64x64" href="/favicon.ico" />
-  <link href="/css/published.css?t=422429407851757472" media="all" rel="stylesheet" type="text/css" />
+  <link href="/css/published.css?t=429752659015462617" media="all" rel="stylesheet" type="text/css" />
   <link rel="canonical" href="https://app.simplenote.com/p/ggPlM7" />
 </head>
 
@@ -20,10 +21,12 @@
     <div class="wrapper">
       <div class="app">
         <div class="note note-detail-markdown">
-           
-          <h1>Science the Aliens</h1>
+          
+            <h1 id="project-ruin">Project Ruin</h1>
 
-<h2>Cooperative with Micro-turns</h2>
+<p>Aka “Science the Aliens”</p>
+
+<h2 id="cooperative-with-micro-turns">Cooperative with Micro-turns</h2>
 
 <p>Let’s go a little different. Make the game state a little harder to parse for others, and quick turns reduce analysis paralysis and therefore taking over.</p>
 
@@ -35,7 +38,7 @@
 
 <p>Engine building of some sort with lots of resources. Akin to Terraforming mars where you have cubes that represent "1 of" whatever they are one.</p>
 
-<h2>Opportunity Card</h2>
+<h2 id="opportunity-card">Opportunity Card</h2>
 
 <ul>
 <li>Resource cost on every card (e.g energy). Consumed by an action. Along side with big arrow to action text.</li>
@@ -53,9 +56,15 @@
 
 <p>Player-colored cubes? Allows us to track when things come from another player. Eh. Confusing. </p>
 
-<p>Card actions trigger when the conversion is satisfied - even if it’s not your turn!!! This leads to some satisfying pinball moves down the line. </p>
+<p>Card actions trigger when the conversion is satisfied - even if it’s not your turn!!! This leads to some satisfying pinball moves down the line. Just make sure we don’t have any infinite loops! Maybe disallow using a card more than once in a chain? Lame but fixes it. Otherwise we’ll balance per card. </p>
 
-<h2>Each turn</h2>
+<p>Action cards allow you to use your turn
+Buff cards modify actions
+Quest cards are timed windfalls that you add energy to and eventually get a ton of loot.</p>
+
+<p>Quests take multiple turns to charge up. So as your action you can “move up” your workers. Maybe you even construct a quest randomly by having separate cards? “Draw your next card from the quest deck” or even “Draw the next Minerals quest card”, quest cards can branch and have choices. Or even specific “choose your own adventure” branches. Basically these are like Action cards that you look up the name in a Quest deck. To prevent spoilers, you have just the name on the back.</p>
+
+<h2 id="each-turn">Each turn</h2>
 
 <ul>
 <li>Get energy income.</li>
@@ -63,7 +72,7 @@
 <li>If you just activated a card, do that action.</li>
 </ul>
 
-<h2>Lab Attributes</h2>
+<h2 id="lab-attributes">Lab Attributes</h2>
 
 <ul>
 <li>Funding model</li>
@@ -72,7 +81,7 @@
 <li>Initial lab-specific cards</li>
 </ul>
 
-<h2>Built-in cards</h2>
+<h2 id="built-in-cards">Built-in cards</h2>
 
 <ul>
 <li>"Play a card" takes energy</li>
@@ -81,7 +90,7 @@
 <li>A few random starter cards from your faction deck.</li>
 </ul>
 
-<h2>Faction ideas</h2>
+<h2 id="faction-ideas">Faction ideas</h2>
 
 <ul>
 <li>American govt: good at military, bad at sharing cards, good at humans. Funding model is selling weapons. </li>
@@ -96,7 +105,7 @@
 
 <p>Funding model power: add a manufacturing good as part of your funding phase.</p>
 
-<h2>Opportunities</h2>
+<h2 id="opportunities">Opportunities</h2>
 
 <p>Draw cards like stellaris. Get more alternatives is one upgrade. All cards go into discard after you get one.</p>
 
@@ -104,11 +113,11 @@
 
 <p>Resources can have types. "Animal" and then "Cat" and "Dog"</p>
 
-<h2>Buffs &amp; Debuffs</h2>
+<h2 id="buffs-debuffs">Buffs &amp; Debuffs</h2>
 
 <p>In addition to cubes, you can also get "buffs". As a tile on a card or another card. Like "x2" where you can double the resources. Buffs stay until dispelled.</p>
 
-<h3>Buff ideas</h3>
+<h3 id="buff-ideas">Buff ideas</h3>
 
 <ul>
 <li>Double resources produced</li>
@@ -122,7 +131,7 @@
 <li>Or, bring an advanced card up X cards from the bottom.</li>
 </ul>
 
-<h3>Debuffs</h3>
+<h3 id="debuffs">Debuffs</h3>
 
 <ul>
 <li>Cannot gain buffs. Dispel existing buffs on this</li>
@@ -139,7 +148,7 @@
 
 <p>Ok gameplay seems cool. What is the problem? Science labs racing to develop some technology? Like prevent alien invasion</p>
 
-<h2>Income</h2>
+<h2 id="income">Income</h2>
 
 <ul>
 <li>Funding is your engine loop</li>
@@ -151,7 +160,7 @@
 <li>Funding from a country is based on things like manufacturing status, eg China.</li>
 </ul>
 
-<h2>Resources</h2>
+<h2 id="resources">Resources</h2>
 
 <ul>
 <li>Energy is the base thing</li>
@@ -184,7 +193,7 @@
 * Resource sharing equipment: planes, transports
 * Manufacturing equipment to make money/energy</p>
 
-<h2>Card Concept Ideas</h2>
+<h2 id="card-concept-ideas">Card Concept Ideas</h2>
 
 <ul>
 <li>Resource production. All different kinds</li>
@@ -218,11 +227,12 @@
 <li>Discard this card after use. </li>
 <li>Decrease panic. (Theologians, Hackers do this). Or increase panic for a powerful move. </li>
 <li>Collaboration between human types: Engineers+Linguists. Linguists+Theologians. </li>
+<li>Advance a quest and then discard an opportunity. </li>
 </ul>
 
 <p><strong>Card design.</strong> Sometimes you need a resource that gets used up (e.g. energy other times just to activate it e.g. specialists). Consumable resources are on the side with an arrow to the action. Non-consumable are on the bottom. Buffs are along the bottom so you can put them behind an existing card</p>
 
-<h2>Card Sketches</h2>
+<h2 id="card-sketches">Card Sketches</h2>
 
 <ul>
 <li>Produce cars (Action, Manufacturing) 3E -&gt; 1 car per car factory. 5E -&gt; 1 car factory. (can you do 6E -&gt; 2 cars?)</li>
@@ -269,7 +279,17 @@
 <li>Admiral (Buff, Military). 1 Officer -&gt; Add 1 Damage to each craft.</li>
 </ul>
 
-<h2>Research alternatives:</h2>
+<h2 id="quest-ideas">Quest ideas</h2>
+
+<p>Quests allow you to get a windfall after some pretty specific requirements. </p>
+
+<ul>
+<li>Discover a droid who buffs prospecting, or building ships, fights for you, or blows up on you. </li>
+<li>Find a mole in the organization who has betrayed everyone by leaking secrets. Military quest. Get an officer from another player to investigate</li>
+<li>Translate ancient symbols. Gets you to get miners, then a linguist, then a theologian.</li>
+</ul>
+
+<h2 id="research-alternatives">Research alternatives:</h2>
 
 <ul>
 <li>A basic opportunity deck gets dealt to every lab to combine with your base deck</li>
@@ -278,7 +298,7 @@ When you buy one of yours, you refresh the whole thing. Shuffle when it is deple
 <li>Everyone sees their own alternatives, but at the beginning of the game you deal out different decks.</li>
 </ul>
 
-<h2>Overall problem</h2>
+<h2 id="overall-problem">Overall problem</h2>
 
 <ul>
 <li>Aliens send debuffs</li>
@@ -294,7 +314,7 @@ When you buy one of yours, you refresh the whole thing. Shuffle when it is deple
 <li>They can assassinate humans, ie they can attack a particular tag.</li>
 </ul>
 
-<h2>Alien quest deck</h2>
+<h2 id="alien-quest-deck">Alien quest deck</h2>
 
 <ul>
 <li>Gun batteries: needs 5 ships and a total of 20 damage. Mix of leaders and manufacturing and better tech.</li>
@@ -310,9 +330,11 @@ When you buy one of yours, you refresh the whole thing. Shuffle when it is deple
 <li>Some quests can have a "when discovered" event, like "kill the recon squad" or "shoot down any satellites" or "assassinate all behavioralists" or "add energy to anyone with spaceships" or "remove any stored energy"</li>
 <li>Back of the quest deck can have cubes for exploration difficulty you must remove first. This is randomized at the beginning of the game to add variety.</li>
 <li>Not every card needs to be a quest. Some of them just have aliens in them as obstacles. Hostiles to go around or fight. </li>
+<li>Perhaps the aliens have their own engine/ecosystem that you need to disrupt. Maybe you don’t need to discover it anyway - just learn about it. Strategizing on how to disrupt their engine would be fun and interesting. </li>
+<li>Or perhaps the first stage is explore, but then anything you don’t explore gets revealed anyway and you don’t get a benefit. </li>
 </ul>
 
-<h2>Project Secrecy</h2>
+<h2 id="project-secrecy">Project Secrecy</h2>
 
 <p>The project starts as SECRET, but over time
 the public becomes more aware of a problem. Decrease secrecy on certain card actions, and each round. When you run out, flip the card over and the endgame gets expedited.</p>
@@ -331,7 +353,7 @@ the public becomes more aware of a problem. Decrease secrecy on certain card act
 <li>You can increase secrecy again if you assassinate people. Or save a secrecy bump if you have an assassin.</li>
 </ul>
 
-<h2>Analyzing</h2>
+<h2 id="analyzing">Analyzing</h2>
 
 <ul>
 <li>Energy cost of the whole tree</li>
@@ -339,7 +361,7 @@ the public becomes more aware of a problem. Decrease secrecy on certain card act
 <li>How productive it is compared to alternatives</li>
 </ul>
 
-<h2>Titles</h2>
+<h2 id="titles">Titles</h2>
 
 <ul>
 <li>Project Ruin</li>
@@ -349,7 +371,42 @@ the public becomes more aware of a problem. Decrease secrecy on certain card act
 <li>The Xeno Project</li>
 </ul>
 
-           
+<p>Players can be countries or companies. Players must sit in a circle according to the world. So the country order must be US, China, Russia, EU. Companies can sit anywhere between them. </p>
+
+<p>In a 1-4 player game you have an AI character version that plays very simply and predictably.</p>
+
+<p>Upgradable thing: number wide of cards that fit into your factory. </p>
+
+<p>Upgradeable thing: number of “root” cards. </p>
+
+<p>All cards for everyone. Levels 1-3 cards. Shuffle them into columns like FreeCell. So you can see what the other ones are and make your way up to what you want, but it’s still randomized for each game and becomes its own minigame. Maybe even you can split another column with a new spot or move one column on top of another. </p>
+
+<p>Gameplay flow ideas. 
+(Everything simultaneous)</p>
+
+<ul>
+<li>Everyone gets income</li>
+<li>Spend energy</li>
+<li>Buy cards &amp; tiles</li>
+<li>Aliens</li>
+</ul>
+
+<p>Spend Energy turn:
+- You have available energy
+- And number of dispersals, usually one
+But! Things chain so when a card has its requirement fulfilled, it automatically triggers. </p>
+
+<p>Interlocking tiles would be a cool way to upgrade your engine. New slots for research alternatives. New root cards. </p>
+
+<p>We need a set of symbols to represent different threats but they all relate to each other. Maybe the alien deck is comprised of 21 cards: 7 choose 2 cards where each card is a pairing of two areas. Then, “explore” actions reveal the deck and you can get clues about what the final boss will be. The “core quest” is one of seven scenarios that takes the most symbols you have so you decide from what is revealed. </p>
+
+<p>Like: Theology, Military, Industry, Energy, Art, Farming, Biohazard</p>
+
+<p>Theology + Military = Crusade
+Theology + Industry = Slave Labor
+Theology + </p>
+
+          
         </div>
         <!-- .note -->
 
@@ -362,23 +419,6 @@ the public becomes more aware of a problem. Decrease secrecy on certain card act
           onclick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Published page footer link']);">Published with
           Simplenote</a></span></div></div><!-- .published-wrap -->
 
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(["_setAccount", "UA-11500121-3"]);
-    _gaq.push(["_trackPageview", "/publish"]);
-
-    (function () {
-      var ga = document.createElement("script");
-      ga.type = "text/javascript";
-      ga.async = true;
-      ga.src =
-        ("https:" == document.location.protocol
-          ? "https://ssl"
-          : "http://www") + ".google-analytics.com/ga.js";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
 </body>
 
 </html>
