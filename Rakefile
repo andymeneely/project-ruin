@@ -21,6 +21,9 @@ task(:opportunities)     { load 'src/opportunities.rb' }
 desc 'Build the alien ship deck'
 task(:alien)     { load 'src/alien.rb' }
 
+desc 'Build the alien ship deck'
+task(:helps)     { load 'src/helps.rb' }
+
 desc 'Enable proof lines for the next builds'
 task(:with_proofs) do
   puts "Enabling proofing lines."

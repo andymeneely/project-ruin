@@ -1,13 +1,14 @@
                   ╭------------------------------------╮
              Name | Seize Opportunity                  |
-             Tags | Action, Opportunity                |
-         Consume1 | 3                                  |
+             Tags | Action                             |
+         Consume1 | 2                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
    Store1Resource |                                    |
         Required1 |                                    |
 Required1Resource |                                    |
-          Action1 | Take an opportunity                |
+          Action1 | Take an opportunity from your oppo |
+                  | rtunity row                        |
          Consume2 |                                    |
  Consume2Resource |                                    |
            Store2 |                                    |
@@ -22,12 +23,175 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Expand Options                     |
              Tags | Action                             |
-         Consume1 |                                    |
- Consume1Resource |                                    |
+         Consume1 | 1                                  |
+ Consume1Resource | energy                             |
            Store1 |                                    |
    Store1Resource |                                    |
-        Required1 | 5                                  |
-Required1Resource | energy                             |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Draw an extra card from your oppor |
+                  | tunity deck                        |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Exchange of Ideas                  |
+             Tags | Action                             |
+         Consume1 | 1                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Swap one available Opportunity wit |
+                  | h another player from your purchas |
+                  | e rows.                            |
+         Consume2 | 2                                  |
+ Consume2Resource | energy                             |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Swap two available Opportunities b |
+                  | etween any two players.            |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Spread Efforts                     |
+             Tags | Action                             |
+         Consume1 | 3                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Add 6 energy to 6 different abilit |
+                  | ies. If 1/2/3 managers are deploye |
+                  | d, may be on 2/3/4 other players.  |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource | managers                           |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Revisit Opportunities              |
+             Tags | Action                             |
+         Consume1 | 3                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Discard your opportunity row. Shuf |
+                  | fle your discard and place on top  |
+                  | of your deck. Re-deal opportunitie |
+                  | s.                                 |
+         Consume2 | 4                                  |
+ Consume2Resource | energy                             |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Discard your opportunity row. Shuf |
+                  | fle your discard and opportunity d |
+                  | eck together and re-deal.          |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Search for New Opportunities       |
+             Tags | Action                             |
+         Consume1 | 2                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 | Min 1                              |
+Required1Resource | managers                           |
+          Action1 | Discard an opportunity per Manager |
+                  | .                                  |
+         Consume2 | 4                                  |
+ Consume2Resource | energy                             |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | For each X Managers, X different p |
+                  | layers may discard one opportunity |
+                  | .                                  |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Pass on Opportunity                |
+             Tags | Action                             |
+         Consume1 | 2                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Pass an available opportunity the  |
+                  | player on your left or right.      |
+         Consume2 | 3                                  |
+ Consume2Resource | energy                             |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Pass an available opportunity to a |
+                  | ny player.                         |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Academic Ambitions                 |
+             Tags | Action, Academic                   |
+         Consume1 | 1:1                                |
+ Consume1Resource | linguists                          |
+           Store1 |                                    |
+   Store1Resource | theologians                        |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 | 1:1                                |
+ Consume2Resource | theologians                        |
+           Store2 |                                    |
+   Store2Resource | linguists                          |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Translate Runes                    |
+             Tags | Action, Academic, Organization     |
+         Consume1 | 1:1                                |
+ Consume1Resource | runes                              |
+           Store1 |                                    |
+   Store1Resource | writings                           |
+        Required1 |                                    |
+Required1Resource | linguist                           |
           Action1 |                                    |
          Consume2 |                                    |
  Consume2Resource |                                    |
@@ -36,8 +200,337 @@ Required1Resource | energy                             |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-          Action3 | While activated, 1 additional Oppo |
-                  | rtunity card is available to you.  |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Interpret Writings                 |
+             Tags | Action, Academic, Organization     |
+         Consume1 | X                                  |
+ Consume1Resource | writings                           |
+           Store1 | X                                  |
+   Store1Resource | interpretations                    |
+        Required1 | Min 1                              |
+Required1Resource | theologian                         |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | One interpretation per theologian  |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Derive Doctrine                    |
+             Tags | Action, Academic, Organization     |
+         Consume1 | 8:1                                |
+ Consume1Resource | interpretations                    |
+           Store1 |                                    |
+   Store1Resource | doctrine                           |
+        Required1 |                                    |
+Required1Resource | theologians                        |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Reduce cost to 7/6/5 for 2/3/4 the |
+                  | ologians                           |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Humanities Summit                  |
+             Tags | Action, Academic, Summit           |
+         Consume1 | 3:1                                |
+ Consume1Resource | interpretations                    |
+           Store1 |                                    |
+   Store1Resource | doctrine                           |
+        Required1 | 2                                  |
+Required1Resource | theologians                        |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 | 1                                  |
+Required2Resource | linguists                          |
+          Action2 | Place this in your discard in clea |
+                  | nup phase.                         |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Naval Shipyard                     |
+             Tags | Action, Fleet, Military            |
+         Consume1 | 4:3                                |
+ Consume1Resource | minerals                           |
+           Store1 | Max 4                              |
+   Store1Resource | fighters                           |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 | 5:1                                |
+ Consume2Resource | minerals                           |
+           Store2 | Max 3                              |
+   Store2Resource | destroyers                         |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Converted Shipyard                 |
+             Tags | Action, Fleet, Organization        |
+         Consume1 | 2:1                                |
+ Consume1Resource | minerals                           |
+           Store1 | Max 3                              |
+   Store1Resource | fighters                           |
+        Required1 | 2                                  |
+Required1Resource | managers                           |
+          Action1 |                                    |
+         Consume2 | 5:3                                |
+ Consume2Resource | minerals                           |
+           Store2 | Max 3                              |
+   Store2Resource | fighters                           |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | University                         |
+             Tags | Action, Humanities                 |
+         Consume1 | 5:2                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | linguist                           |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 | 3:1                                |
+ Consume2Resource | energy                             |
+           Store2 |                                    |
+   Store2Resource | theologian                         |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Social Media Campaign              |
+             Tags | Action, Internet                   |
+         Consume1 | 5                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | This round, decrease Secrecy by 1  |
+                  | instead of by Panic, then discard  |
+                  | this card.                         |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Media Disinformation               |
+             Tags | Action, Internet                   |
+         Consume1 | 2                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Decrease Panic by 1, then discard  |
+                  | this card                          |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Internet Forums                    |
+             Tags | Action, Internet                   |
+         Consume1 | 5:6                                |
+ Consume1Resource | writings                           |
+           Store1 |                                    |
+   Store1Resource | interpretations                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 | 3:4                                |
+ Consume2Resource | interpretations                    |
+           Store2 |                                    |
+   Store2Resource | interpretations                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Viral Conspiracy Theory            |
+             Tags | Action, Internet                   |
+         Consume1 | 2                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource | linguists                          |
+          Action1 | Increase Secrecy by 1. Discard thi |
+                  | s card after all abilities are fin |
+                  | ished. Unless a theologian is depl |
+                  | oyed, increase Panic by 1.         |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Salvage Yards                      |
+             Tags | Action, Logistics                  |
+         Consume1 | 1                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 | Min 1                              |
+Required1Resource | workers                            |
+          Action1 | Trash a card on your tableau, gain |
+                  |  3 energy on your Funding card, pl |
+                  | us one per worker.                 |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Corporate Jet                      |
+             Tags | Action, Logistics                  |
+         Consume1 | 2                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Move cubes on this card to another |
+                  |  opportunity. If it's another play |
+                  | er, move this card to that player. |
+                  |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource | managers                           |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Commercial Airline                 |
+             Tags | Action, Logistics                  |
+         Consume1 | 3                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Move up 6 workers or managers to t |
+                  | his card. Give this card to anothe |
+                  | r player.                          |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource | workers                            |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Hangars                            |
+             Tags | Logistics                          |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 | Max 10                             |
+   Store1Resource | fighters                           |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Better Hangars                     |
+             Tags | Logistics                          |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 | Max 15                             |
+   Store1Resource | fighters                           |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 | Max 10                             |
+   Store2Resource | destroyers                         |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
          BuffType |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
@@ -50,6 +543,223 @@ Required2Resource |                                    |
    Store1Resource | cars                               |
         Required1 |                                    |
 Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Mass Markets                       |
+             Tags | Action, Manufacturing              |
+         Consume1 | 5:20                               |
+ Consume1Resource | minerals                           |
+           Store1 |                                    |
+   Store1Resource | energy                             |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 | 5:10                               |
+ Consume2Resource | cars                               |
+           Store2 |                                    |
+   Store2Resource | energy                             |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Training Camp                      |
+             Tags | Action, Military                   |
+         Consume1 | 2:3                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | soldiers                           |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 | 3:1                                |
+ Consume2Resource | energy                             |
+           Store2 |                                    |
+   Store2Resource | officers                           |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | New Strategic Directions           |
+             Tags | Action, Military                   |
+         Consume1 | 1                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 | Min 0                              |
+Required1Resource | officers                           |
+          Action1 | Discard an opportunity. Discard an |
+                  |  additional opportunity per Office |
+                  | r.                                 |
+         Consume2 | 2                                  |
+ Consume2Resource | energy                             |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Shuffle your remaining opportunity |
+                  |  cards.                            |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Military Transport Network         |
+             Tags | Action, Military, Logistics        |
+         Consume1 | 1                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Move up to 2 Soldiers per Officer  |
+                  | from this card to a card on anothe |
+                  | r player's tableau.                |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource | soldiers                           |
+        Required2 | 1                                  |
+Required2Resource | officers                           |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Officer Academy                    |
+             Tags | Action, Military, Logistics        |
+         Consume1 | 3:2                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | officers                           |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 | 1                                  |
+ Consume2Resource | energy                             |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Deploy new officers from this card |
+                  |  to any of your abilities.         |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Strategy Summit                    |
+             Tags | Action, Military, Summit           |
+         Consume1 | 3:1                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | vulnerabilities                    |
+        Required1 | 2                                  |
+Required1Resource | officers                           |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 | 1                                  |
+Required2Resource | managers                           |
+          Action2 | Place this in your discard in clea |
+                  | nup phase.                         |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Dangerous Mining                   |
+             Tags | Action, Minerals                   |
+         Consume1 | 1:2                                |
+ Consume1Resource | workers                            |
+           Store1 | Max 10                             |
+   Store1Resource | minerals                           |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 | 5:1                                |
+ Consume2Resource | energy                             |
+           Store2 | Max 5                              |
+   Store2Resource | minerals                           |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Robot Mining                       |
+             Tags | Action, Minerals                   |
+         Consume1 | 4:1                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | minerals                           |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Mining Company                     |
+             Tags | Action, Minerals                   |
+         Consume1 | 3:1                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | minerals                           |
+        Required1 | 1                                  |
+Required1Resource | managers                           |
+          Action1 |                                    |
+         Consume2 | 1:1                                |
+ Consume2Resource | workers                            |
+           Store2 |                                    |
+   Store2Resource | managers                           |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Deep Mining                        |
+             Tags | Action, Minerals                   |
+         Consume1 | 6:3                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | minerals                           |
+        Required1 | 2                                  |
+Required1Resource | workers                            |
           Action1 |                                    |
          Consume2 |                                    |
  Consume2Resource |                                    |
@@ -105,13 +815,255 @@ Required2Resource |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
+             Name | Diplomacy Summit                   |
+             Tags | Action, Summit                     |
+         Consume1 | 3                                  |
+ Consume1Resource | interpretations                    |
+           Store1 |                                    |
+   Store1Resource | vulnerabilities                    |
+        Required1 | 2                                  |
+Required1Resource | officers                           |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 | 1                                  |
+Required2Resource | linguists                          |
+          Action2 | Place this in your discard in clea |
+                  | nup phase.                         |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Expedited Opportunity              |
+             Tags | Buff                               |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType | Action                             |
+       BuffAction | When this action consumes energy,  |
+                  | you may take an additional opportu |
+                  | nity.                              |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Summit Transportation              |
+             Tags | Buff, Logistics                    |
+         Consume1 | 1                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Deploy 3 people to this summit.    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType | Summit                             |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Boost Capacity                     |
+             Tags | Buff, Logistics                    |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType | Logistics                          |
+       BuffAction | Increase capacity by 1             |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Factory Automation                 |
+             Tags | Buff, Manufacturing                |
+         Consume1 | 1                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Increase output by 1               |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType | Manufacturing                      |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Fleet Admiral                      |
+             Tags | Buff, Military, Fleet              |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 | 1                                  |
+Required1Resource | officers                           |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType | Fleet                              |
+       BuffAction | Each craft in this fleet deals +1  |
+                  | Damage                             |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Fleet Expansion                    |
+             Tags | Buff, Military, Fleet              |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 | 2                                  |
+Required1Resource | officers                           |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType | Fleet                              |
+       BuffAction | Double the capacity of this Fleet. |
+                  |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Interagency Collaborations         |
+             Tags | Buff, Military, Organization       |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource | officers                           |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource | managers                           |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType | Military OR Organization           |
+       BuffAction | Managers and officers on this card |
+                  |  are equivalent.                   |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Prospecting                        |
+             Tags | Buff, Minerals                     |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource | workers                            |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType | Minerals                           |
+       BuffAction | Produce 1 extra Mineral per worker |
+                  | , to a maximum of 3.               |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Mining Efficiencies                |
+             Tags | Buff, Minerals, Logistics          |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType | Minerals                           |
+       BuffAction | When this action produces Minerals |
+                  | , you may move up to 3 minerals to |
+                  |  another action.                   |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Global Mining Efficiencies         |
+             Tags | Buff, Minerals, Logistics          |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 | 1                                  |
+Required1Resource | managers                           |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction | When this action produces Minerals |
+                  | , you may move up to 3 Minerals to |
+                  |  one of any player's abilities.    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
              Name | Management                         |
              Tags | Buff, Organization                 |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
    Store1Resource |                                    |
-        Required1 | Min 1                              |
+        Required1 |                                    |
 Required1Resource | managers                           |
           Action1 |                                    |
          Consume2 |                                    |
@@ -190,248 +1142,6 @@ Required2Resource |                                    |
        BuffAction | Maximum Managers is 4              |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
-             Name | Factory Automation                 |
-             Tags | Buff, Manufacturing                |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 | 5                                  |
-Required1Resource | energy                             |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Manufacturing                      |
-       BuffAction | Increase Max factories to 3.       |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Exchange Opportunity               |
-             Tags | Action                             |
-         Consume1 | 1                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 | Swap one available Opportunity wit |
-                  | h another player from your purchas |
-                  | e rows.                            |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Efficient Operations               |
-             Tags | Buff, Organization                 |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 | Min 1                              |
-Required1Resource | managers                           |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Organization                       |
-       BuffAction | Decrease Energy costs by 1 per man |
-                  | ager, down to a minimum of 2.      |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Salvage Yards                      |
-             Tags | Action                             |
-         Consume1 | 1                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 | Min 1                              |
-Required1Resource | workers                            |
-          Action1 | Trash a card on your tableau, gain |
-                  |  3 energy on your Funding card, pl |
-                  | us one per worker.                 |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Corporate Jet                      |
-             Tags | Action                             |
-         Consume1 | 1                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 | Move this card and any cubes on it |
-                  |  to another player.                |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource | managers                           |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Commercial Airline                 |
-             Tags | Action                             |
-         Consume1 | 1                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 | Move this card and any cubes on it |
-                  |  to another player.                |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource | workers                            |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Military Transport Network         |
-             Tags | Action, Military                   |
-         Consume1 | 1                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 | Move up to 2 Soldiers per Officer  |
-                  | from this card to a card on anothe |
-                  | r player's tableau.                |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource | soldiers                           |
-        Required2 | 1                                  |
-Required2Resource | officers                           |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Training Camp                      |
-             Tags | Action, Military                   |
-         Consume1 | 2:3                                |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource | soldiers                           |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 | 3:1                                |
- Consume2Resource | energy                             |
-           Store2 |                                    |
-   Store2Resource | officers                           |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Officer Academy                    |
-             Tags | Action, Military                   |
-         Consume1 | 3:2                                |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource | officers                           |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Fleet Admiral                      |
-             Tags | Buff, Military, Fleet              |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 | 1                                  |
-Required1Resource | officers                           |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Fleet                              |
-       BuffAction | Each craft in this fleet gains 1 e |
-                  | xtra Damage                        |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Fleet Expansion                    |
-             Tags | Buff, Military, Fleet              |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 | 2                                  |
-Required1Resource | officers                           |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Fleet                              |
-       BuffAction | Double the capacity of this Fleet. |
-                  |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
              Name | Basic Fleet                        |
              Tags | Fleet, Military                    |
          Consume1 |                                    |
@@ -453,102 +1163,12 @@ Required2Resource | officers                           |
        BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
-             Name | Spread Efforts                     |
-             Tags | Action                             |
-         Consume1 | 3                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 | Move this energy to up to 3 differ |
-                  | ent cards on your tableau.         |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Social Media Campaign              |
-             Tags | Action, Internet                   |
-         Consume1 | 5                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 | This round, decrease Secrecy by 1  |
-                  | instead of by Panic, then discard  |
-                  | this card.                         |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Media Disinformation               |
-             Tags | Action, Internet                   |
-         Consume1 | 2                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 | Decrease Panic by 1, then discard  |
-                  | this card                          |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Pass on Opportunity                |
-             Tags | Action, Opportunity                |
-         Consume1 | 2                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 | Pass an available opportunity to t |
-                  | he player on your left.            |
-         Consume2 | 3                                  |
- Consume2Resource | energy                             |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 | Pass an available opportunity to a |
-                  | ny player.                         |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Expedited Opportunity              |
-             Tags | Buff, Opportunity                  |
+             Name | Grant Funding                      |
+             Tags | Funding                            |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
-   Store1Resource |                                    |
+   Store1Resource | energy                             |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
@@ -558,244 +1178,120 @@ Required1Resource |                                    |
    Store2Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
-          Action2 |                                    |
+          Action2 | Each round, gain 1 energy for each |
+                  |  Person deployed to an opportunity |
+                  | .                                  |
           Action3 |                                    |
-         BuffType | Opportunity                        |
-       BuffAction | When this action consumes energy,  |
-                  | you may take an additional opportu |
-                  | nity.                              |
+         BuffType |                                    |
+       BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
-             Name | New Strategic Directions           |
-             Tags | Action, Opportunity, Military      |
+             Name | Private Investors                  |
+             Tags | Funding                            |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource | energy                             |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Each round, gain 10-X energy, wher |
+                  | e X is the panic level, minimum 1. |
+                  |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Defense Contracts                  |
+             Tags | Funding                            |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource | energy                             |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Each round, gain 1 energy for ever |
+                  | y Military card you have on your t |
+                  | ableau.                            |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Crowdfunding                       |
+             Tags | Funding                            |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource | energy                             |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Each round, gain 3/8/12 energy whe |
+                  | n the panic level is low/medium/hi |
+                  | gh                                 |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Secrecy Trades                     |
+             Tags | Funding                            |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource | energy                             |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Gain 4/6/8 energy when the Secrecy |
+                  |  is low/medium/high                |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Archivist                          |
+             Tags | Passive, Academic                  |
          Consume1 | 1                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
    Store1Resource |                                    |
-        Required1 | Min 0                              |
-Required1Resource | officers                           |
-          Action1 | Discard an opportunity. Discard an |
-                  |  additional opportunity per Office |
-                  | r.                                 |
-         Consume2 | 2                                  |
- Consume2Resource | energy                             |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 | Shuffle your remaining opportunity |
-                  |  cards.                            |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Search for New Opportunities       |
-             Tags | Action, Opportunity                |
-         Consume1 | 2                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 | Min 1                              |
-Required1Resource | managers                           |
-          Action1 | Discard an opportunity per Manager |
-                  | .                                  |
-         Consume2 | 4                                  |
- Consume2Resource | energy                             |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 | For each X Managers, X different p |
-                  | layers may discard one opportunity |
-                  | .                                  |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | University                         |
-             Tags | Action, Humanities                 |
-         Consume1 | 5:2                                |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource | linguist                           |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 | 3:1                                |
- Consume2Resource | energy                             |
-           Store2 |                                    |
-   Store2Resource | theologian                         |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Tech School                        |
-             Tags | Action                             |
-         Consume1 | 2:1                                |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource | engineers                          |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 | 2:3                                |
- Consume2Resource | energy                             |
-           Store2 |                                    |
-   Store2Resource | workers                            |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Dangerous Mining                   |
-             Tags | Action, Minerals                   |
-         Consume1 | 2:1                                |
- Consume1Resource | workers                            |
-           Store1 | Max 5                              |
-   Store1Resource | minerals                           |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 | 5:1                                |
- Consume2Resource | energy                             |
-           Store2 | Max 5                              |
-   Store2Resource | minerals                           |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Interagency Collaborations         |
-             Tags | Buff, Military, Organization       |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
         Required1 | 1                                  |
-Required1Resource | officers                           |
-          Action1 |                                    |
+Required1Resource | theologians                        |
+          Action1 | Moving writings, interpretations,  |
+                  | and doctrine has no cost this roun |
+                  | d.                                 |
          Consume2 |                                    |
  Consume2Resource |                                    |
            Store2 |                                    |
    Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Military OR Organization           |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Converted Shipyard                 |
-             Tags | Action, Fleet, Organization        |
-         Consume1 | 2:1                                |
- Consume1Resource | minerals                           |
-           Store1 | Max 3                              |
-   Store1Resource | fighters                           |
-        Required1 | 2                                  |
-Required1Resource | managers                           |
-          Action1 |                                    |
-         Consume2 | 5:3                                |
- Consume2Resource | minerals                           |
-           Store2 | Max 3                              |
-   Store2Resource | fighters                           |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Improved Prospecting               |
-             Tags | Buff, Minerals                     |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 | 3                                  |
-Required1Resource | energy                             |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Minerals                           |
-       BuffAction | Produce +1 Minerals                |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Manual Prospecting                 |
-             Tags | Buff, Minerals                     |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 | Min 1                              |
-Required1Resource | workers                            |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Minerals                           |
-       BuffAction | Produce 1 extra Minerals per worke |
-                  | r, to a maximum of 3.              |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Mining Operations                  |
-             Tags | Action, Minerals                   |
-         Consume1 | 4:1                                |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource | minerals                           |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Mining Company                     |
-             Tags | Action, Minerals                   |
-         Consume1 | 3:1                                |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource | minerals                           |
-        Required1 | 1                                  |
-Required1Resource | managers                           |
-          Action1 |                                    |
-         Consume2 | 1:1                                |
- Consume2Resource | workers                            |
-           Store2 |                                    |
-   Store2Resource | managers                           |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
@@ -823,71 +1319,6 @@ Required2Resource |                                    |
           Action3 | There have been reports some unkno |
                   | wn material uncovered somwhere. I  |
                   | don't know. Writer's block.        |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Naval Shipyard                     |
-             Tags | Action, Fleet, Military            |
-         Consume1 | 4:3                                |
- Consume1Resource | minerals                           |
-           Store1 | Max 4                              |
-   Store1Resource | fighters                           |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 | 5:1                                |
- Consume2Resource | minerals                           |
-           Store2 | Max 3                              |
-   Store2Resource | destroyers                         |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Mining Logistics                   |
-             Tags | Buff, Minerals                     |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Minerals                           |
-       BuffAction | When this action produces Minerals |
-                  | , you may move those minerals to a |
-                  | nother action.                     |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Mass Markets                       |
-             Tags | Action, Manufacturing              |
-         Consume1 | 5:30                               |
- Consume1Resource | minerals                           |
-           Store1 |                                    |
-   Store1Resource | energy                             |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 | 5:20                               |
- Consume2Resource | cars                               |
-           Store2 |                                    |
-   Store2Resource | energy                             |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
          BuffType |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯

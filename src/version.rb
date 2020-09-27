@@ -1,3 +1,3 @@
 module ProjectRuin
-  VERSION = 'v1.0'
+  VERSION = 'v2.0'
 end

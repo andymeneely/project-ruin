@@ -10,18 +10,24 @@ def game_icon(str)
 end
 
 icon = {
-  'cars'       => game_icon('city-car'),
-  'destroyers' => game_icon('spaceship'),
-  'energy'     => game_icon('electric'),
-  'engineers'  => game_icon('pencil-ruler'),
-  'fighters'   => game_icon('interceptor-ship'),
-  'linguist'   => game_icon('read'),
-  'managers'   => game_icon('tie'),
-  'minerals'   => game_icon('ore'),
-  'officers'   => game_icon('rank-3'),
-  'soldiers'   => game_icon('corporal'),
-  'theologian' => game_icon('moebius-triangle'),
-  'workers'    => game_icon('miner'),
+  'cars'            => game_icon('city-car'),
+  'destroyers'      => game_icon('spaceship'),
+  'doctrine'        => game_icon('enlightenment'),
+  'energy'          => game_icon('electric'),
+  'engineers'       => game_icon('pencil-ruler'),
+  'fighters'        => game_icon('interceptor-ship'),
+  'interpretations' => game_icon('archive-research'),
+  'linguist'        => game_icon('read'),
+  'managers'        => game_icon('tie'),
+  'minerals'        => game_icon('ore'),
+  'officers'        => game_icon('rank-3'),
+  'recons'          => game_icon('binoculars'),
+  'runes'           => game_icon('rune-stone'),
+  'soldiers'        => game_icon('corporal'),
+  'theologian'      => game_icon('moebius-triangle'),
+  'vulnerabilities' => game_icon('cracked-shield'),
+  'workers'         => game_icon('miner'),
+  'writings'        => game_icon('files'),
 }
 
 Squib::Deck.new(cards: data.nrows) do
@@ -91,17 +97,17 @@ Squib::Deck.new(cards: data.nrows) do
   text str: ProjectRuin::VERSION, layout: :version
 
   # enable_build :proofs
-  build(:proofs) do
-    safe_zone
+#   build(:proofs) do
+    # safe_zone
     cut_zone
-  end
+#   end
 
   save_png prefix: 'opportunity_preview_',
            trim: '0.125in', trim_radius: '0.125in'
 
-  build :pdf do
-   save_pdf file: 'opportunities.pdf'
-  end
+#   build :pdf do
+   save_pdf file: 'opportunities_pnp.pdf', trim: '0.125in'
+#   end
 
   cut_zone
   save_sheet prefix: 'opportunity_sheet_widescreen_', columns: 12,
