@@ -1,33 +1,55 @@
 graph LR
-    energy --0.33--> cars
-    energy --0.50--> engineers
-    energy --0.60--> engineers
-    energy --0.50--> workers
-    energy --0.50--> managers
-    officers -.-> soldiers
-    energy --1.50--> soldiers
-    energy --0.33--> officers
-    energy --0.67--> officers
-    soldiers -.-> fighters
-    soldiers -.-> destroyers
-    officers -.-> fighters
-    officers -.-> destroyers
-    energy --0.40--> linguist
-    energy --0.33--> theologian
-    energy --0.50--> engineers
-    energy --1.50--> workers
-    workers --0.50--> minerals
-    energy --0.20--> minerals
+    linguists --1.00--> theologians
+    theologians --1.00--> linguists
+    runes --1.00--> writings
+    linguist -.-> writings
+    theologians -.-> interpretations
+    interpretations --0.12--> doctrine
+    theologians -.-> doctrine
+    interpretations --0.33--> doctrine
+    theologians -.-> doctrine
+    linguists -.-> doctrine
+    minerals --0.75--> fighters
+    minerals --0.20--> destroyers
     minerals --0.50--> fighters
     minerals --0.60--> fighters
     managers -.-> fighters
     managers -.-> fighters
+    energy --0.40--> linguist
+    energy --0.33--> theologians
+    writings --1.20--> interpretations
+    interpretations --1.33--> interpretations
+    energy --0.33--> cars
+    minerals --4.00--> energy
+    cars --2.00--> energy
+    energy --1.50--> soldiers
+    energy --0.33--> officers
+    officers -.-> soldiers
+    energy --0.67--> officers
+    energy --0.33--> vulnerabilities
+    officers -.-> vulnerabilities
+    managers -.-> vulnerabilities
+    workers --2.00--> minerals
+    energy --0.20--> minerals
     energy --0.25--> minerals
     energy --0.33--> minerals
     workers --1.00--> managers
     managers -.-> minerals
     managers -.-> managers
-    minerals --0.75--> fighters
-    minerals --0.20--> destroyers
-    minerals --6.00--> energy
-    cars --4.00--> energy
+    energy --0.50--> minerals
+    workers -.-> minerals
+    energy --0.50--> engineers
+    energy --0.60--> engineers
+    energy --0.50--> workers
+    energy --0.50--> managers
+    officers -.-> vulnerabilities
+    linguists -.-> vulnerabilities
+    soldiers -.-> fighters
+    soldiers -.-> destroyers
+    officers -.-> fighters
+    officers -.-> destroyers
+     --0.50--> explore
+    energy --0.33--> explore
+    energy --0.20--> explore
+    officers -.-> explore
+    fighters -.-> explore

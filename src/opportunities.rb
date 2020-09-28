@@ -17,14 +17,14 @@ icon = {
   'engineers'       => game_icon('pencil-ruler'),
   'fighters'        => game_icon('interceptor-ship'),
   'interpretations' => game_icon('archive-research'),
-  'linguist'        => game_icon('read'),
+  'linguists'       => game_icon('read'),
   'managers'        => game_icon('tie'),
   'minerals'        => game_icon('ore'),
   'officers'        => game_icon('rank-3'),
   'recons'          => game_icon('binoculars'),
   'runes'           => game_icon('rune-stone'),
   'soldiers'        => game_icon('corporal'),
-  'theologian'      => game_icon('moebius-triangle'),
+  'theologians'     => game_icon('moebius-triangle'),
   'vulnerabilities' => game_icon('cracked-shield'),
   'workers'         => game_icon('miner'),
   'writings'        => game_icon('files'),
@@ -96,23 +96,25 @@ Squib::Deck.new(cards: data.nrows) do
 
   text str: ProjectRuin::VERSION, layout: :version
 
-  # enable_build :proofs
-#   build(:proofs) do
-    # safe_zone
-    cut_zone
-#   end
+  save_sheet prefix: 'tts_sheet_opportunities_', dir: 'D:\Dropbox\TTS',
+             columns: 10, rows: 7, trim: '0.125in'
 
+  cut_zone
+    
   save_png prefix: 'opportunity_preview_',
            trim: '0.125in', trim_radius: '0.125in'
 
-#   build :pdf do
+  build :pdf do
    save_pdf file: 'opportunities_pnp.pdf', trim: '0.125in'
-#   end
-
-  cut_zone
-  save_sheet prefix: 'opportunity_sheet_widescreen_', columns: 12,
-             trim: '0.125in', trim_radius: '0.125in'
-  save_sheet prefix: 'opportunity_sheet_portrait_', columns: 2,
-             trim: '0.125in', trim_radius: '0.125in'
+  end
 
 end
+
+Squib::Deck.new do 
+    background color: :white 
+    text str: 'Opportunity', font: 'Audiowide Regular 18',
+         width: width, height: height, valign: :middle, align: :center
+    save_png prefix: "tts_opportunity_back_", trim: '0.125in', dir: 'D:\Dropbox\TTS'
+end
+
+puts "Done! #{data.nrows} opportunity cards"

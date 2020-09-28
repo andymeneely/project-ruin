@@ -207,12 +207,12 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Interpret Writings                 |
              Tags | Action, Academic, Organization     |
-         Consume1 | X                                  |
+         Consume1 | 1:X                                |
  Consume1Resource | writings                           |
-           Store1 | X                                  |
+           Store1 |                                    |
    Store1Resource | interpretations                    |
         Required1 | Min 1                              |
-Required1Resource | theologian                         |
+Required1Resource | theologians                        |
           Action1 |                                    |
          Consume2 |                                    |
  Consume2Resource |                                    |
@@ -324,7 +324,7 @@ Required1Resource |                                    |
          Consume2 | 3:1                                |
  Consume2Resource | energy                             |
            Store2 |                                    |
-   Store2Resource | theologian                         |
+   Store2Resource | theologians                        |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
@@ -899,7 +899,8 @@ Required2Resource |                                    |
           Action2 |                                    |
           Action3 |                                    |
          BuffType | Logistics                          |
-       BuffAction | Increase capacity by 1             |
+       BuffAction | Increase all storage capacities of |
+                  |  this action by 2                  |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Factory Automation                 |
@@ -1300,6 +1301,134 @@ Required2Resource |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
+             Name |                                    |
+             Tags |                                    |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Attempt To Communicate             |
+             Tags | Action, Academic, Recon            |
+         Consume1 | 1                                  |
+ Consume1Resource | interpretation                     |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 | Min 1                              |
+Required1Resource | linguists                          |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Fleet Exploration                  |
+             Tags | Action, Military, Recon            |
+         Consume1 | 2:1                                |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource | explore                            |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | -1 Secrecy for each Military Probl |
+                  | em discovered                      |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Welcome Wagon                      |
+             Tags | Action, Academic, Recon            |
+         Consume1 | 3:1                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | explore                            |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | -1 Secrecy                         |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Recon Shuttle                      |
+             Tags | Action, Military, Recon            |
+         Consume1 | 5:1                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | explore                            |
+        Required1 | Min 1                              |
+Required1Resource | officers                           |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 | Min 1                              |
+Required2Resource | fighters                           |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Interdisciplinary Expertise        |
+             Tags | Quest Buff                         |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType | Quest                              |
+       BuffAction | You may read and explore an extra  |
+                  | chapter this round.                |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
              Name | Unknown Material Discovery         |
              Tags | Quest                              |
          Consume1 |                                    |
@@ -1317,8 +1446,10 @@ Required1Resource |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
           Action3 | There have been reports some unkno |
-                  | wn material uncovered somwhere. I  |
-                  | don't know. Writer's block.        |
+                  | wn material near a Cold War-era sa |
+                  | tellite. Will you send a scientist |
+                  |  or miner to investigate? Scientis |
+                  | t: card 2, Miner: card 3.          |
          BuffType |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
