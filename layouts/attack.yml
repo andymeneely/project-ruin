@@ -1,0 +1,64 @@
+name:
+  x: 0.9in
+  y: 90
+  width: deck - 1.25in
+  height: 0.25in
+  font: Audiowide 12
+  valign: middle
+  align: left
+  ellipsize: false
+
+type:
+  x: 0
+  y: 180
+  width: deck
+  align: center
+  font: Audiowide 6
+
+reason1:
+  x: 90
+  y: 90
+  width: 0.25in
+  height: 0.25in
+
+reason2:
+  extends: reason1
+  x: += 0.3in
+
+reason1text:
+  extends: reason1
+  y: += 0.25in
+  font: Audiowide 8
+  valign: top
+  align: center
+  ellipsize: false
+
+reason2text:
+  extends: reason1text
+  x: += 0.3in
+
+d20:
+  x: 0.85in
+  y: 1.55in
+  font: Serif 8
+  width: deck - 0.75in
+  height: 0.25in
+
+d12:
+  extends: d20
+  y: += 0.25in
+
+d8:
+  extends: d12
+  y: += 0.25in
+
+d6:
+  extends: d8
+  y: += 0.25in
+
+
+
+version:
+  font: Arial 6
+  x: 725
+  y: 45

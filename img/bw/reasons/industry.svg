@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="22.624107mm"
+   height="22.624107mm"
+   viewBox="0 0 22.624107 22.624107"
+   version="1.1"
+   id="svg2303"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="industry.svg">
+  <defs
+     id="defs2297" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-197.3487"
+     inkscape:cy="-423.06302"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false" />
+  <metadata
+     id="metadata2300">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-158.04851,-260.10209)">
+    <g
+       id="g1616"
+       transform="translate(0.2996327,209.16596)">
+      <rect
+         fill="#000000"
+         fill-opacity="1"
+         height="22.624107"
+         width="22.624107"
+         rx="2.1210101"
+         ry="2.1210101"
+         id="rect81"
+         x="-180.37299"
+         y="50.936131"
+         transform="scale(-1,1)"
+         style="stroke-width:0.0441877" />
+      <path
+         d="m 163.4049,53.764145 -0.0171,11.312054 h 0.7241 l 4.24202,-5.656027 0.70701,5.656027 4.24202,-5.656027 0.707,5.656027 4.24202,-5.656027 0.707,5.656027 v 7.070034 H 159.16288 V 53.764145 h 1.41401 v 11.312054 h 1.414 V 53.764145 Z m 14.14007,12.726061 h -2.12101 v 1.414007 h 2.12101 z m -3.53502,0 h -2.12101 v 1.414007 h 2.12101 z m -3.53502,0 h -2.12101 v 1.414007 h 2.12101 z m -3.53501,0 h -2.12101 v 1.414007 h 2.12101 z m 10.60505,2.828013 h -2.12101 v 1.414007 h 2.12101 z m -3.53502,0 h -2.12101 v 1.414007 h 2.12101 z m -3.53502,0 h -2.12101 v 1.414007 h 2.12101 z m -3.53501,0 h -2.12101 v 1.414007 h 2.12101 z"
+         fill="#ffffff"
+         fill-opacity="1"
+         id="path83"
+         style="stroke-width:0.0441877" />
+    </g>
+  </g>
+</svg>

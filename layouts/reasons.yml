@@ -1,0 +1,26 @@
+reason1:
+  x: 90
+  y: 90
+  width: 0.75in
+  height: 0.75in
+
+reason2:
+  extends: reason1
+  x: += 1.25in
+
+reason1text:
+  extends: reason1
+  y: += 0.75in
+  font: Audiowide 9
+  valign: top
+  align: center
+  ellipsize: false
+
+reason2text:
+  extends: reason1text
+  x: += 1.25in
+
+version:
+  font: Arial 6
+  x: 725
+  y: 45

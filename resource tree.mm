@@ -6,6 +6,7 @@ graph LR
     theologians -.-> interpretations
     interpretations --0.12--> doctrine
     theologians -.-> doctrine
+    energy --0.33--> recons
     interpretations --0.33--> doctrine
     theologians -.-> doctrine
     linguists -.-> doctrine
@@ -26,6 +27,10 @@ graph LR
     energy --0.33--> officers
     officers -.-> soldiers
     energy --0.67--> officers
+     --0.50--> recons
+    energy --0.20--> recons
+    officers -.-> recons
+    fighters -.-> recons
     energy --0.33--> vulnerabilities
     officers -.-> vulnerabilities
     managers -.-> vulnerabilities
@@ -48,8 +53,3 @@ graph LR
     soldiers -.-> destroyers
     officers -.-> fighters
     officers -.-> destroyers
-     --0.50--> explore
-    energy --0.33--> explore
-    energy --0.20--> explore
-    officers -.-> explore
-    fighters -.-> explore

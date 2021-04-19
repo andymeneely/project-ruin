@@ -248,6 +248,48 @@ Required2Resource |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
+             Name | Attempt To Communicate             |
+             Tags | Action, Academic, Recon            |
+         Consume1 | 1                                  |
+ Consume1Resource | interpretation                     |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 | Min 1                              |
+Required1Resource | linguists                          |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Welcome Wagon                      |
+             Tags | Action, Academic, Recon            |
+         Consume1 | 3:1                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | recons                             |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | -1 Secrecy                         |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
              Name | Humanities Summit                  |
              Tags | Action, Academic, Summit           |
          Consume1 | 3:1                                |
@@ -406,7 +448,7 @@ Required2Resource |                                    |
            Store1 |                                    |
    Store1Resource |                                    |
         Required1 |                                    |
-Required1Resource | linguists                          |
+Required1Resource | theologians                        |
           Action1 | Increase Secrecy by 1. Discard thi |
                   | s card after all abilities are fin |
                   | ished. Unless a theologian is depl |
@@ -485,48 +527,6 @@ Required1Resource |                                    |
  Consume2Resource |                                    |
            Store2 |                                    |
    Store2Resource | workers                            |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Hangars                            |
-             Tags | Logistics                          |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 | Max 10                             |
-   Store1Resource | fighters                           |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Better Hangars                     |
-             Tags | Logistics                          |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 | Max 15                             |
-   Store1Resource | fighters                           |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 | Max 10                             |
-   Store2Resource | destroyers                         |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
@@ -662,6 +662,49 @@ Required1Resource |                                    |
 Required2Resource |                                    |
           Action2 | Deploy new officers from this card |
                   |  to any of your abilities.         |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Fleet Exploration                  |
+             Tags | Action, Military, Recon            |
+         Consume1 | 2:1                                |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource | recons                             |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | -1 Secrecy for each Military Probl |
+                  | em discovered                      |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Recon Shuttle                      |
+             Tags | Action, Military, Recon            |
+         Consume1 | 5:1                                |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource | recons                             |
+        Required1 | Min 1                              |
+Required1Resource | officers                           |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 | Min 1                              |
+Required2Resource | fighters                           |
+          Action2 |                                    |
           Action3 |                                    |
          BuffType |                                    |
        BuffAction |                                    |
@@ -1032,7 +1075,7 @@ Required2Resource |                                    |
          BuffType | Minerals                           |
        BuffAction | When this action produces Minerals |
                   | , you may move up to 3 minerals to |
-                  |  another action.                   |
+                  |  another action for free           |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
              Name | Global Mining Efficiencies         |
@@ -1278,6 +1321,48 @@ Required2Resource |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
+             Name | Hangars                            |
+             Tags | Logistics                          |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 | Max 10                             |
+   Store1Resource | fighters                           |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Better Hangars                     |
+             Tags | Logistics                          |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 | Max 15                             |
+   Store1Resource | fighters                           |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 | Max 10                             |
+   Store2Resource | destroyers                         |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
              Name | Archivist                          |
              Tags | Passive, Academic                  |
          Consume1 | 1                                  |
@@ -1301,8 +1386,8 @@ Required2Resource |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
-             Name |                                    |
-             Tags |                                    |
+             Name | Unknown Material Discovery         |
+             Tags | Quest                              |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1317,92 +1402,11 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Attempt To Communicate             |
-             Tags | Action, Academic, Recon            |
-         Consume1 | 1                                  |
- Consume1Resource | interpretation                     |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 | Min 1                              |
-Required1Resource | linguists                          |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Fleet Exploration                  |
-             Tags | Action, Military, Recon            |
-         Consume1 | 2:1                                |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource | explore                            |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 | -1 Secrecy for each Military Probl |
-                  | em discovered                      |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Welcome Wagon                      |
-             Tags | Action, Academic, Recon            |
-         Consume1 | 3:1                                |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource | explore                            |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 | -1 Secrecy                         |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Recon Shuttle                      |
-             Tags | Action, Military, Recon            |
-         Consume1 | 5:1                                |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource | explore                            |
-        Required1 | Min 1                              |
-Required1Resource | officers                           |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 | Min 1                              |
-Required2Resource | fighters                           |
-          Action2 |                                    |
-          Action3 |                                    |
+          Action3 | There have been reports some unkno |
+                  | wn material near a Cold War-era sa |
+                  | tellite. Will you send a scientist |
+                  |  or miner to investigate? Scientis |
+                  | t: card 2, Miner: card 3.          |
          BuffType |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
@@ -1429,8 +1433,8 @@ Required2Resource |                                    |
                   | chapter this round.                |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
-             Name | Unknown Material Discovery         |
-             Tags | Quest                              |
+             Name | Stock Markets                      |
+             Tags | Earth                              |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1445,11 +1449,70 @@ Required1Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
-          Action3 | There have been reports some unkno |
-                  | wn material near a Cold War-era sa |
-                  | tellite. Will you send a scientist |
-                  |  or miner to investigate? Scientis |
-                  | t: card 2, Miner: card 3.          |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Strange Vibrations                 |
+             Tags | Quest                              |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 | 3                                  |
+Required1Resource | soldiers                           |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Remote Mountains                   |
+             Tags | Earth                              |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Famous Mountains                   |
+             Tags | Earth                              |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
          BuffType |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
