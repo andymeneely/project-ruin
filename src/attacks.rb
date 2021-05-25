@@ -22,6 +22,8 @@ Squib::Deck.new(cards: 21) do
   text str: data.d8, layout: :d8
   text str: data.d6, layout: :d6
 
+  text str: data.endgame_name.map { |s| "Crisis: #{s}"}, layout: :endgame_name
+
 
   save_png prefix: 'attack_', trim: 37.5, trim_radius: 37.5
   save_sheet prefix: 'sheet_attacks_', rows: 7, columns: 3

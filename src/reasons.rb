@@ -21,4 +21,5 @@ end
 Squib::Deck.new(cards: 1, width: '2.75in', height: '1.5in') do
   background color: '#BBB'
   save_png prefix: 'reason_back_'
+  save_sheet prefix: 'sheet_reasons_back_', rows: 7, columns: 3
 end

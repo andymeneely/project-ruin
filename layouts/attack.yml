@@ -56,7 +56,12 @@ d6:
   extends: d8
   y: += 0.25in
 
-
+endgame_name:
+  x: 0
+  y: 3in
+  width: deck
+  align: center
+  font: Audiowide 6
 
 version:
   font: Arial 6

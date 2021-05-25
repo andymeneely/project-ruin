@@ -7,13 +7,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="203.2mm"
-   height="192.66345mm"
-   viewBox="0 0 203.19999 192.66345"
+   width="211.67747mm"
+   height="211.67747mm"
+   viewBox="0 0 211.67747 211.67747"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="motivation mat.svg">
+   sodipodi:docname="motivation mat.svg"
+   inkscape:export-filename="C:\code\project-ruin\ideas\motivation mat.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -24,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="521.77067"
-     inkscape:cy="344.59866"
+     inkscape:cx="648.5042"
+     inkscape:cy="382.49969"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -53,7 +56,16 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-7.71062,-50.936132)">
+     transform="translate(-3.4450526,-44.649925)">
+    <rect
+       style="fill:#bbbbbb;fill-opacity:1;stroke:none;stroke-width:0.517646;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;stop-color:#000000"
+       id="rect2419"
+       width="211.67747"
+       height="211.67747"
+       x="3.4450526"
+       y="44.649925"
+       rx="1.383512"
+       ry="1.383512" />
     <g
        id="g1628"
        transform="translate(0,-6.6586617)">
