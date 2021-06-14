@@ -1,36 +1,14 @@
                   ╭------------------------------------╮
-             Name | Seize Opportunity                  |
+             Name | Expand Options                     |
              Tags | Action                             |
+             Cost |                                    |
          Consume1 | 2                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
    Store1Resource |                                    |
         Required1 |                                    |
 Required1Resource |                                    |
-          Action1 | Take an opportunity from your oppo |
-                  | rtunity row                        |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Expand Options                     |
-             Tags | Action                             |
-         Consume1 | 1                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 | Draw an extra card from your oppor |
-                  | tunity deck                        |
+          Action1 | Split an Opportunity stack         |
          Consume2 |                                    |
  Consume2Resource |                                    |
            Store2 |                                    |
@@ -45,6 +23,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Exchange of Ideas                  |
              Tags | Action                             |
+             Cost |                                    |
          Consume1 | 1                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -67,17 +46,16 @@ Required2Resource |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
-             Name | Spread Efforts                     |
+             Name | Coordinate Efforts                 |
              Tags | Action                             |
+             Cost |                                    |
          Consume1 | 3                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
    Store1Resource |                                    |
         Required1 |                                    |
 Required1Resource |                                    |
-          Action1 | Add 6 energy to 6 different abilit |
-                  | ies. If 1/2/3 managers are deploye |
-                  | d, may be on 2/3/4 other players.  |
+          Action1 | Each other player gains 2 energy.  |
          Consume2 |                                    |
  Consume2Resource |                                    |
            Store2 |                                    |
@@ -92,6 +70,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Revisit Opportunities              |
              Tags | Action                             |
+             Cost |                                    |
          Consume1 | 3                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -118,6 +97,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Search for New Opportunities       |
              Tags | Action                             |
+             Cost |                                    |
          Consume1 | 2                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -142,6 +122,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Pass on Opportunity                |
              Tags | Action                             |
+             Cost |                                    |
          Consume1 | 2                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -163,19 +144,65 @@ Required2Resource |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
-             Name | Academic Ambitions                 |
-             Tags | Action, Academic                   |
-         Consume1 | 1:1                                |
- Consume1Resource | linguists                          |
+             Name | Streamline                         |
+             Tags | Action                             |
+             Cost |                                    |
+         Consume1 | 2                                  |
+ Consume1Resource | energy                             |
            Store1 |                                    |
-   Store1Resource | theologians                        |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 | Trash a card on your tableau worth |
+                  |  3 or more, Upgrade a resource     |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 |                                    |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Leadership Training                |
+             Tags | Action, Organization               |
+             Cost |                                    |
+         Consume1 | 1                                  |
+ Consume1Resource | energy                             |
+           Store1 |                                    |
+   Store1Resource |                                    |
         Required1 |                                    |
 Required1Resource |                                    |
           Action1 |                                    |
          Consume2 | 1:1                                |
- Consume2Resource | theologians                        |
+ Consume2Resource | scholars                           |
            Store2 |                                    |
-   Store2Resource | linguists                          |
+   Store2Resource |                                    |
+        Required2 |                                    |
+Required2Resource |                                    |
+          Action2 | Gain 1 Expert per Scholar          |
+          Action3 |                                    |
+         BuffType |                                    |
+       BuffAction |                                    |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+             Name | Academic Ambitions                 |
+             Tags | Action, Academic                   |
+             Cost |                                    |
+         Consume1 |                                    |
+ Consume1Resource |                                    |
+           Store1 |                                    |
+   Store1Resource |                                    |
+        Required1 |                                    |
+Required1Resource |                                    |
+          Action1 |                                    |
+         Consume2 |                                    |
+ Consume2Resource |                                    |
+           Store2 |                                    |
+   Store2Resource |                                    |
         Required2 |                                    |
 Required2Resource |                                    |
           Action2 |                                    |
@@ -186,6 +213,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Translate Runes                    |
              Tags | Action, Academic, Organization     |
+             Cost |                                    |
          Consume1 | 1:1                                |
  Consume1Resource | runes                              |
            Store1 |                                    |
@@ -207,6 +235,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Interpret Writings                 |
              Tags | Action, Academic, Organization     |
+             Cost |                                    |
          Consume1 | 1:X                                |
  Consume1Resource | writings                           |
            Store1 |                                    |
@@ -228,6 +257,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Derive Doctrine                    |
              Tags | Action, Academic, Organization     |
+             Cost |                                    |
          Consume1 | 8:1                                |
  Consume1Resource | interpretations                    |
            Store1 |                                    |
@@ -250,6 +280,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Attempt To Communicate             |
              Tags | Action, Academic, Recon            |
+             Cost |                                    |
          Consume1 | 1                                  |
  Consume1Resource | interpretation                     |
            Store1 |                                    |
@@ -271,6 +302,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Welcome Wagon                      |
              Tags | Action, Academic, Recon            |
+             Cost |                                    |
          Consume1 | 3:1                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -292,6 +324,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Humanities Summit                  |
              Tags | Action, Academic, Summit           |
+             Cost |                                    |
          Consume1 | 3:1                                |
  Consume1Resource | interpretations                    |
            Store1 |                                    |
@@ -314,6 +347,7 @@ Required2Resource | linguists                          |
                   ╭------------------------------------╮
              Name | Naval Shipyard                     |
              Tags | Action, Fleet, Military            |
+             Cost |                                    |
          Consume1 | 4:3                                |
  Consume1Resource | minerals                           |
            Store1 | Max 4                              |
@@ -335,6 +369,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Converted Shipyard                 |
              Tags | Action, Fleet, Organization        |
+             Cost |                                    |
          Consume1 | 2:1                                |
  Consume1Resource | minerals                           |
            Store1 | Max 3                              |
@@ -356,6 +391,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | University                         |
              Tags | Action, Humanities                 |
+             Cost |                                    |
          Consume1 | 5:2                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -377,6 +413,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Social Media Campaign              |
              Tags | Action, Internet                   |
+             Cost |                                    |
          Consume1 | 5                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -400,6 +437,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Media Disinformation               |
              Tags | Action, Internet                   |
+             Cost |                                    |
          Consume1 | 2                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -422,6 +460,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Internet Forums                    |
              Tags | Action, Internet                   |
+             Cost |                                    |
          Consume1 | 5:6                                |
  Consume1Resource | writings                           |
            Store1 |                                    |
@@ -443,6 +482,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Viral Conspiracy Theory            |
              Tags | Action, Internet                   |
+             Cost |                                    |
          Consume1 | 2                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -467,6 +507,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Salvage Yards                      |
              Tags | Action, Logistics                  |
+             Cost |                                    |
          Consume1 | 1                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -490,6 +531,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Corporate Jet                      |
              Tags | Action, Logistics                  |
+             Cost |                                    |
          Consume1 | 2                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -514,6 +556,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Commercial Airline                 |
              Tags | Action, Logistics                  |
+             Cost |                                    |
          Consume1 | 3                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -537,6 +580,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Auto Factory                       |
              Tags | Action, Manufacturing              |
+             Cost |                                    |
          Consume1 | 3:1                                |
  Consume1Resource | energy                             |
            Store1 | Max 3                              |
@@ -558,6 +602,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Mass Markets                       |
              Tags | Action, Manufacturing              |
+             Cost |                                    |
          Consume1 | 5:20                               |
  Consume1Resource | minerals                           |
            Store1 |                                    |
@@ -579,6 +624,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Training Camp                      |
              Tags | Action, Military                   |
+             Cost |                                    |
          Consume1 | 2:3                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -600,6 +646,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | New Strategic Directions           |
              Tags | Action, Military                   |
+             Cost |                                    |
          Consume1 | 1                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -624,6 +671,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Military Transport Network         |
              Tags | Action, Military, Logistics        |
+             Cost |                                    |
          Consume1 | 1                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -647,6 +695,7 @@ Required2Resource | officers                           |
                   ╭------------------------------------╮
              Name | Officer Academy                    |
              Tags | Action, Military, Logistics        |
+             Cost |                                    |
          Consume1 | 3:2                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -669,6 +718,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Fleet Exploration                  |
              Tags | Action, Military, Recon            |
+             Cost |                                    |
          Consume1 | 2:1                                |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -691,6 +741,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Recon Shuttle                      |
              Tags | Action, Military, Recon            |
+             Cost |                                    |
          Consume1 | 5:1                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -712,6 +763,7 @@ Required2Resource | fighters                           |
                   ╭------------------------------------╮
              Name | Strategy Summit                    |
              Tags | Action, Military, Summit           |
+             Cost |                                    |
          Consume1 | 3:1                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -734,6 +786,7 @@ Required2Resource | managers                           |
                   ╭------------------------------------╮
              Name | Dangerous Mining                   |
              Tags | Action, Minerals                   |
+             Cost |                                    |
          Consume1 | 1:2                                |
  Consume1Resource | workers                            |
            Store1 | Max 10                             |
@@ -755,6 +808,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Robot Mining                       |
              Tags | Action, Minerals                   |
+             Cost |                                    |
          Consume1 | 4:1                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -776,6 +830,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Mining Company                     |
              Tags | Action, Minerals                   |
+             Cost |                                    |
          Consume1 | 3:1                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -797,6 +852,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Deep Mining                        |
              Tags | Action, Minerals                   |
+             Cost |                                    |
          Consume1 | 6:3                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -818,6 +874,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Tech School                        |
              Tags | Action, Organization               |
+             Cost |                                    |
          Consume1 | 2:1                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -839,6 +896,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Hiring                             |
              Tags | Action, Organization               |
+             Cost |                                    |
          Consume1 | 2:1                                |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -860,6 +918,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Diplomacy Summit                   |
              Tags | Action, Summit                     |
+             Cost |                                    |
          Consume1 | 3                                  |
  Consume1Resource | interpretations                    |
            Store1 |                                    |
@@ -882,6 +941,7 @@ Required2Resource | linguists                          |
                   ╭------------------------------------╮
              Name | Expedited Opportunity              |
              Tags | Buff                               |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -905,6 +965,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Summit Transportation              |
              Tags | Buff, Logistics                    |
+             Cost |                                    |
          Consume1 | 1                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -926,6 +987,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Boost Capacity                     |
              Tags | Buff, Logistics                    |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -948,6 +1010,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Factory Automation                 |
              Tags | Buff, Manufacturing                |
+             Cost |                                    |
          Consume1 | 1                                  |
  Consume1Resource | energy                             |
            Store1 |                                    |
@@ -969,6 +1032,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Fleet Admiral                      |
              Tags | Buff, Military, Fleet              |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -991,6 +1055,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Fleet Expansion                    |
              Tags | Buff, Military, Fleet              |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1013,6 +1078,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Interagency Collaborations         |
              Tags | Buff, Military, Organization       |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1035,6 +1101,7 @@ Required2Resource | managers                           |
                   ╭------------------------------------╮
              Name | Prospecting                        |
              Tags | Buff, Minerals                     |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1057,6 +1124,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Mining Efficiencies                |
              Tags | Buff, Minerals, Logistics          |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1080,6 +1148,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Global Mining Efficiencies         |
              Tags | Buff, Minerals, Logistics          |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1101,30 +1170,9 @@ Required2Resource |                                    |
                   |  one of any player's abilities.    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
-             Name | Management                         |
-             Tags | Buff, Organization                 |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource | managers                           |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Organization                       |
-       BuffAction | Decrease Energy cost by 1 per mana |
-                  | ger                                |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
              Name | Middle Management                  |
              Tags | Buff, Organization                 |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1144,50 +1192,9 @@ Required2Resource |                                    |
        BuffAction | Maximum Managers is 2              |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
-             Name | Upper Management                   |
-             Tags | Buff, Organization                 |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Organization                       |
-       BuffAction | Maximum Managers is 3              |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Executive Team                     |
-             Tags | Buff, Organization                 |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType | Organization                       |
-       BuffAction | Maximum Managers is 4              |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
              Name | Basic Fleet                        |
              Tags | Fleet, Military                    |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 | Max 3                              |
@@ -1209,6 +1216,7 @@ Required2Resource | officers                           |
                   ╭------------------------------------╮
              Name | Grant Funding                      |
              Tags | Funding                            |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1232,6 +1240,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Private Investors                  |
              Tags | Funding                            |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1255,6 +1264,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Defense Contracts                  |
              Tags | Funding                            |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1278,6 +1288,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Crowdfunding                       |
              Tags | Funding                            |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1301,6 +1312,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Secrecy Trades                     |
              Tags | Funding                            |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1323,6 +1335,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Hangars                            |
              Tags | Logistics                          |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 | Max 10                             |
@@ -1344,6 +1357,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Better Hangars                     |
              Tags | Logistics                          |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 | Max 15                             |
@@ -1363,31 +1377,9 @@ Required2Resource |                                    |
        BuffAction |                                    |
                   ╰------------------------------------╯
                   ╭------------------------------------╮
-             Name | Archivist                          |
-             Tags | Passive, Academic                  |
-         Consume1 | 1                                  |
- Consume1Resource | energy                             |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 | 1                                  |
-Required1Resource | theologians                        |
-          Action1 | Moving writings, interpretations,  |
-                  | and doctrine has no cost this roun |
-                  | d.                                 |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
              Name | Unknown Material Discovery         |
              Tags | Quest                              |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1413,6 +1405,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Interdisciplinary Expertise        |
              Tags | Quest Buff                         |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1435,6 +1428,7 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Stock Markets                      |
              Tags | Earth                              |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
@@ -1456,54 +1450,13 @@ Required2Resource |                                    |
                   ╭------------------------------------╮
              Name | Strange Vibrations                 |
              Tags | Quest                              |
+             Cost |                                    |
          Consume1 |                                    |
  Consume1Resource |                                    |
            Store1 |                                    |
    Store1Resource |                                    |
         Required1 | 3                                  |
 Required1Resource | soldiers                           |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Remote Mountains                   |
-             Tags | Earth                              |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
-          Action1 |                                    |
-         Consume2 |                                    |
- Consume2Resource |                                    |
-           Store2 |                                    |
-   Store2Resource |                                    |
-        Required2 |                                    |
-Required2Resource |                                    |
-          Action2 |                                    |
-          Action3 |                                    |
-         BuffType |                                    |
-       BuffAction |                                    |
-                  ╰------------------------------------╯
-                  ╭------------------------------------╮
-             Name | Famous Mountains                   |
-             Tags | Earth                              |
-         Consume1 |                                    |
- Consume1Resource |                                    |
-           Store1 |                                    |
-   Store1Resource |                                    |
-        Required1 |                                    |
-Required1Resource |                                    |
           Action1 |                                    |
          Consume2 |                                    |
  Consume2Resource |                                    |

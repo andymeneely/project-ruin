@@ -6,7 +6,7 @@ data = Squib.xlsx file: 'data/game.xlsx', sheet: 0
 File.open('data/opportunities.txt', 'w+') { |f| f.write data.to_pretty_text }
 
 def game_icon(str)
-  GameIcons.get(str).recolor(fg: 'fff', bg: '000', bg_opacity: 0).string
+  GameIcons.get(str).recolor(fg: 'ffffff', bg: '00000').string
 end
 
 icon = {
@@ -28,7 +28,14 @@ icon = {
   'vulnerabilities' => game_icon('cracked-shield'),
   'workers'         => game_icon('miner'),
   'writings'        => game_icon('files'),
+  'signal'          => game_icon('aerial-signal'),
+  'crystals'        => game_icon('crystal-growth'),
+  'food'        => game_icon('grapes'),
 }
+
+icon.each do |i, _g|
+    File.open("img/bw/resources/#{i}.svg", 'w+') { |f| f.write icon[i] }
+end
 
 Squib::Deck.new(cards: data.nrows) do
   background color: :white
@@ -40,6 +47,7 @@ Squib::Deck.new(cards: data.nrows) do
   # UGH. Looks like a bug in Squib. svg's layout isn't properly supporting expansion
   text str: data.consume1, layout: :Consume1
   text str: data.consume1resource, layout: :Consume1ResourceText
+  
   svg layout: :Consume1Frame,
       file: data.consume1resource.map { |r| r.to_s.empty? ? nil : 'bw/consume.svg' }
   svg data: data.consume1resource.map { |r| icon[r] },
@@ -96,13 +104,12 @@ Squib::Deck.new(cards: data.nrows) do
 
   text str: ProjectRuin::VERSION, layout: :version
 
-  save_sheet prefix: 'tts_sheet_opportunities_', dir: 'D:\Dropbox\TTS',
-             columns: 10, rows: 7, trim: '0.125in'
-
   cut_zone
-    
+
   save_png prefix: 'opportunity_preview_',
            trim: '0.125in', trim_radius: '0.125in'
+
+  save_sheet prefix: 'sheet_opportunity_', rows: 5, columns: 5, trim: 37.5
 
   build :pdf do
    save_pdf file: 'opportunities_pnp.pdf', trim: '0.125in'
@@ -110,11 +117,11 @@ Squib::Deck.new(cards: data.nrows) do
 
 end
 
-Squib::Deck.new do 
-    background color: :white 
+Squib::Deck.new do
+    background color: :white
     text str: 'Opportunity', font: 'Audiowide Regular 18',
          width: width, height: height, valign: :middle, align: :center
-    save_png prefix: "tts_opportunity_back_", trim: '0.125in', dir: 'D:\Dropbox\TTS'
+    save_png prefix: "opportunity_back_", trim: '0.125in'
 end
 
 puts "Done! #{data.nrows} opportunity cards"
