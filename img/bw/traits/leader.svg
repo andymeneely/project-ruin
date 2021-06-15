@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="22.624107mm"
+   height="22.624107mm"
+   viewBox="0 0 22.624107 22.624107"
+   version="1.1"
+   id="svg2303"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="leader.svg">
+  <defs
+     id="defs2297" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="108.00748"
+     inkscape:cy="54.702187"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-page="true" />
+  <metadata
+     id="metadata2300">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.457441,-277.48899)">
+    <g
+       id="g33"
+       transform="translate(0.47935238)">
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0246327;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         id="rect13"
+         width="15.234313"
+         height="15.234313"
+         x="-203.90385"
+         y="201.92816"
+         rx="3.1814549"
+         ry="3.1814549"
+         transform="rotate(-45)" />
+      <path
+         d="m 9.3752606,279.8846 c -0.4765855,0 -0.8629442,0.44731 -0.8629442,0.9991 3.35e-4,0.40948 0.2164776,0.77726 0.5453082,0.92798 -0.4519476,0.26521 -0.8783725,1.02773 -0.8783725,1.56976 h 2.3920169 c 0,-0.54179 -0.42609,-1.30383 -0.8777508,-1.5694 0.3286878,-0.15099 0.5445668,-0.5189 0.5446868,-0.92834 0,-0.55177 -0.3863588,-0.99908 -0.8629444,-0.99908 z m -0.2152816,3.9519 v 0.98072 H 4.7108274 v 1.98538 h 0.430563 v -1.55482 H 9.159979 v 1.55482 h 0.430563 v -1.55482 h 4.018588 v 1.55482 h 0.430563 v -1.98538 H 9.590542 v -0.98072 z m -4.2338701,3.54018 c -0.4765854,0 -0.862944,0.44731 -0.862944,0.99908 3.348e-4,0.40949 0.2164775,0.77726 0.5453081,0.92798 -0.4519477,0.2652 -0.8783726,1.02775 -0.8783726,1.56978 h 2.392017 c 0,-0.54179 -0.42609,-1.30388 -0.8777507,-1.56942 0.3286871,-0.15101 0.5445666,-0.51888 0.5446863,-0.92832 0,-0.55176 -0.3863586,-0.9991 -0.8629441,-0.99907 z m 4.4491517,0 c -0.4765855,0 -0.8629442,0.44731 -0.8629442,0.99908 3.35e-4,0.40949 0.2164776,0.77726 0.5453082,0.92798 -0.4519476,0.2652 -0.8783725,1.02775 -0.8783725,1.56978 h 2.3920169 c 0,-0.54179 -0.42609,-1.30388 -0.8777508,-1.56942 0.3286878,-0.15101 0.5445668,-0.51888 0.5446868,-0.92832 0,-0.55176 -0.3863588,-0.9991 -0.8629444,-0.99907 z m 4.4491514,0 c -0.476585,0 -0.862944,0.44731 -0.862944,0.99908 3.35e-4,0.40949 0.216477,0.77726 0.545308,0.92798 -0.451947,0.2652 -0.878373,1.02775 -0.878373,1.56978 h 2.392017 c 0,-0.54179 -0.426089,-1.30388 -0.87775,-1.56942 0.328687,-0.15101 0.544567,-0.51888 0.544687,-0.92832 0,-0.55176 -0.386359,-0.9991 -0.862945,-0.99907 z"
+         fill="#ffffff"
+         fill-opacity="1"
+         id="path12"
+         style="stroke-width:0.0239202" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.6588px;line-height:1.25;font-family:Aldrich;-inkscape-font-specification:Aldrich;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.10919;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       x="21.260469"
+       y="339.76279"
+       id="text13"
+       transform="translate(-19.699795,-39.985763)"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         x="21.260469"
+         y="339.76279"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.6588px;line-height:1.25;font-family:Aldrich;-inkscape-font-specification:Aldrich;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.10919;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">Leader</tspan></text>
+  </g>
+</svg>

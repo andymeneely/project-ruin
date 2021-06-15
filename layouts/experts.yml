@@ -1,0 +1,70 @@
+name:
+  x: 75
+  y: 75
+  width: 2.25in
+  height: 503
+  font: Audiowide 15
+  spacing: -25
+  valign: top
+  align: center
+  ellipsize: false
+
+power:
+  x: 100
+  y: 75
+  width: 200
+  height: 100
+  font: Roboto Slab,Sans Bold 12
+
+leader_img:
+  x: 75
+  y: 225
+  width: 100
+  height: 100
+
+leader_text:
+  extends: leader_img
+  x: 180
+  width: deck - 250
+  font: Roboto Slab, 8
+  valign: middle
+
+logical_img:
+  extends: leader_img
+  y: += 125
+logical_text:
+  extends: leader_text
+  y: += 125
+
+creative_img:
+  extends: logical_img
+  y: += 125
+creative_text:
+  extends: logical_text
+  y: += 125
+
+tactical_img:
+  extends: creative_img
+  y: += 125
+tactical_text:
+  extends: creative_text
+  y: += 125
+
+strategic_img:
+  extends: tactical_img
+  y: += 125
+strategic_text:
+  extends: tactical_text
+  y: += 125
+
+holistic_img:
+  extends: strategic_img
+  y: += 125
+holistic_text:
+  extends: strategic_text
+  y: += 125
+
+version:
+  font: Arial 6
+  x: 725
+  y: 45

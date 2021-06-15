@@ -20,14 +20,20 @@ task(:opportunities)     { load 'src/opportunities.rb' }
 
 desc 'Build the alien ship deck'
 task(:alien)     { load 'src/alien.rb' }
+task(:attacks)     { load 'src/attacks.rb' }
 
 desc 'Build the reasons deck'
 task(:reasons)     { load 'src/reasons.rb' }
 
-desc 'Build the alien ship deck'
+desc 'Build the helps'
 task(:helps)     { load 'src/helps.rb' }
 
-task(:attacks)     { load 'src/attacks.rb' }
+desc 'Build the expert deck'
+task(:experts)     { load 'src/experts.rb' }
+
+
+desc 'Run simulation of team compositions'
+task(:sim_teams) { load 'src/sim_teams.rb'}
 
 desc 'Enable proof lines for the next builds'
 task(:with_proofs) do

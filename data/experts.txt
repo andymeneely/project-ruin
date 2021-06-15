@@ -1,0 +1,625 @@
+              ╭------------------------------------╮
+         name | Brook                              |
+       leader |                                    |
+      logical |                                    |
+     creative |                                    |
+     tactical |                                    |
+    strategic |                                    |
+     holistic | x                                  |
+        power | 20                                 |
+        count | 1                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc |                                    |
+ tacticalDesc |                                    |
+strategicDesc |                                    |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Lane                               |
+       leader |                                    |
+      logical |                                    |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic |                                    |
+        power | 13                                 |
+        count | 1                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Vic                                |
+       leader |                                    |
+      logical |                                    |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic |                                    |
+        power | 14                                 |
+        count | 1                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Tyler                              |
+       leader |                                    |
+      logical |                                    |
+     creative | x                                  |
+     tactical |                                    |
+    strategic |                                    |
+     holistic |                                    |
+        power | 7                                  |
+        count | 1                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc |                                    |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Caitlin                            |
+       leader |                                    |
+      logical | x                                  |
+     creative |                                    |
+     tactical |                                    |
+    strategic |                                    |
+     holistic |                                    |
+        power | 7                                  |
+        count | 1                                  |
+   leaderDesc |                                    |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc |                                    |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Jade                               |
+       leader |                                    |
+      logical | x                                  |
+     creative |                                    |
+     tactical |                                    |
+    strategic |                                    |
+     holistic |                                    |
+        power | 4                                  |
+        count | 1                                  |
+   leaderDesc |                                    |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc |                                    |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Mia                                |
+       leader |                                    |
+      logical | x                                  |
+     creative |                                    |
+     tactical |                                    |
+    strategic |                                    |
+     holistic |                                    |
+        power | 12                                 |
+        count | 1                                  |
+   leaderDesc |                                    |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc |                                    |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Logan                              |
+       leader |                                    |
+      logical |                                    |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic | x                                  |
+        power | 7                                  |
+        count | 2                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Denny                              |
+       leader |                                    |
+      logical |                                    |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic | x                                  |
+        power | 6                                  |
+        count | 2                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Val                                |
+       leader |                                    |
+      logical |                                    |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic |                                    |
+        power | 16                                 |
+        count | 1                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Barry                              |
+       leader | x                                  |
+      logical |                                    |
+     creative |                                    |
+     tactical |                                    |
+    strategic |                                    |
+     holistic | x                                  |
+        power | 5                                  |
+        count | 2                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc |                                    |
+ creativeDesc |                                    |
+ tacticalDesc |                                    |
+strategicDesc |                                    |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Alex                               |
+       leader |                                    |
+      logical |                                    |
+     creative | x                                  |
+     tactical |                                    |
+    strategic | x                                  |
+     holistic |                                    |
+        power | 6                                  |
+        count | 2                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc |                                    |
+strategicDesc | +3 for each Creative, +5 for Offic |
+              | er                                 |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Fran                               |
+       leader |                                    |
+      logical |                                    |
+     creative | x                                  |
+     tactical |                                    |
+    strategic | x                                  |
+     holistic |                                    |
+        power | 4                                  |
+        count | 2                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc |                                    |
+strategicDesc | +3 for each Creative, +5 for Offic |
+              | er                                 |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Griffin                            |
+       leader |                                    |
+      logical | x                                  |
+     creative |                                    |
+     tactical |                                    |
+    strategic | x                                  |
+     holistic |                                    |
+        power | 7                                  |
+        count | 2                                  |
+   leaderDesc |                                    |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc |                                    |
+strategicDesc | +3 for each Creative, +5 for Offic |
+              | er                                 |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Wade                               |
+       leader |                                    |
+      logical | x                                  |
+     creative |                                    |
+     tactical |                                    |
+    strategic | x                                  |
+     holistic |                                    |
+        power | 6                                  |
+        count | 2                                  |
+   leaderDesc |                                    |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc |                                    |
+strategicDesc | +3 for each Creative, +5 for Offic |
+              | er                                 |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Mason                              |
+       leader |                                    |
+      logical |                                    |
+     creative | x                                  |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic |                                    |
+        power | 3                                  |
+        count | 2                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Ben                                |
+       leader |                                    |
+      logical | x                                  |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic |                                    |
+        power | 4                                  |
+        count | 2                                  |
+   leaderDesc |                                    |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Sidney                             |
+       leader | x                                  |
+      logical |                                    |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic |                                    |
+        power | 15                                 |
+        count | 2                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc |                                    |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Jesse                              |
+       leader | x                                  |
+      logical |                                    |
+     creative | x                                  |
+     tactical |                                    |
+    strategic |                                    |
+     holistic |                                    |
+        power | 6                                  |
+        count | 2                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc |                                    |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Lee                                |
+       leader |                                    |
+      logical |                                    |
+     creative | x                                  |
+     tactical |                                    |
+    strategic | x                                  |
+     holistic | x                                  |
+        power | 1                                  |
+        count | 3                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc |                                    |
+strategicDesc | +3 for each Creative, +5 for Offic |
+              | er                                 |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Mel                                |
+       leader |                                    |
+      logical |                                    |
+     creative | x                                  |
+     tactical |                                    |
+    strategic | x                                  |
+     holistic | x                                  |
+        power | 2                                  |
+        count | 3                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc |                                    |
+strategicDesc | +3 for each Creative, +5 for Offic |
+              | er                                 |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | George                             |
+       leader |                                    |
+      logical |                                    |
+     creative | x                                  |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic | x                                  |
+        power | 4                                  |
+        count | 3                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Stanley                            |
+       leader |                                    |
+      logical |                                    |
+     creative | x                                  |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic | x                                  |
+        power | 5                                  |
+        count | 3                                  |
+   leaderDesc |                                    |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Blake                              |
+       leader |                                    |
+      logical | x                                  |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic | x                                  |
+        power | 3                                  |
+        count | 3                                  |
+   leaderDesc |                                    |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Enrique                            |
+       leader |                                    |
+      logical | x                                  |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic | x                                  |
+        power | 5                                  |
+        count | 3                                  |
+   leaderDesc |                                    |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Aaron                              |
+       leader | x                                  |
+      logical |                                    |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic | x                                  |
+        power | 3                                  |
+        count | 3                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc |                                    |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Elliot                             |
+       leader | x                                  |
+      logical |                                    |
+     creative | x                                  |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic |                                    |
+        power | 7                                  |
+        count | 3                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Ruby                               |
+       leader | x                                  |
+      logical |                                    |
+     creative | x                                  |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic |                                    |
+        power | 6                                  |
+        count | 3                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | James                              |
+       leader | x                                  |
+      logical | x                                  |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic |                                    |
+        power | 9                                  |
+        count | 3                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Liam                               |
+       leader | x                                  |
+      logical | x                                  |
+     creative |                                    |
+     tactical | x                                  |
+    strategic |                                    |
+     holistic |                                    |
+        power | 8                                  |
+        count | 3                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc | +5 with Strategic, +6 for Engineer |
+              |  or Officer                        |
+strategicDesc |                                    |
+ holisticDesc |                                    |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Brice                              |
+       leader | x                                  |
+      logical |                                    |
+     creative | x                                  |
+     tactical |                                    |
+    strategic | x                                  |
+     holistic | x                                  |
+        power | 1                                  |
+        count | 4                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc |                                    |
+ creativeDesc | +5 for each other Creative, +5 for |
+              |  Linguist or Theologian            |
+ tacticalDesc |                                    |
+strategicDesc | +3 for each Creative, +5 for Offic |
+              | er                                 |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Quinn                              |
+       leader | x                                  |
+      logical | x                                  |
+     creative |                                    |
+     tactical |                                    |
+    strategic | x                                  |
+     holistic | x                                  |
+        power | 4                                  |
+        count | 4                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc |                                    |
+strategicDesc | +3 for each Creative, +5 for Offic |
+              | er                                 |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         name | Sage                               |
+       leader | x                                  |
+      logical | x                                  |
+     creative |                                    |
+     tactical |                                    |
+    strategic | x                                  |
+     holistic | x                                  |
+        power | 5                                  |
+        count | 4                                  |
+   leaderDesc | -3 with another Leader             |
+  logicalDesc | +10 with Creative, +5 Linguist or  |
+              | Engineer                           |
+ creativeDesc |                                    |
+ tacticalDesc |                                    |
+strategicDesc | +3 for each Creative, +5 for Offic |
+              | er                                 |
+ holisticDesc | +2 for each Trait in team, +1 for  |
+              | Theologian                         |
+              ╰------------------------------------╯
